@@ -1,0 +1,50 @@
+DATA HOSPITALS;
+	INPUT PatientID $ HospitalBill Age Diagnosis $ Gender $ State $; 
+	DATALINES;
+	1 500 5 SoreThroat 1 NY
+	2 1500 68 Fall 2 CA
+	3 2000 94 Parkinsons 1 CA
+	4 250 15 Checkup 1 NY
+	5 25000 9 Cancer 2 CA
+	6 900 64 Diabetes 1 CA
+	;
+RUN;
+
+DATA OCCUPATION;
+	INPUT PatientID $ JOBTYPE $;
+	DATALINES;
+	1 KINDER
+	2 ACTUARY
+	3 RETIRED
+	4 HS
+	5 ELEM
+	;
+RUN;
+
+PROC CORR DATA=HOSPITALS; /*Default is Pearson*/
+VAR AGE;
+WITH HospitalBill;
+RUN;
+
+PROC CORR DATA=HOSPITALS SPEARMAN;
+VAR AGE;
+WITH HospitalBill;
+RUN;
+
+PROC CORR DATA=HOSPITALS KENDALL;
+VAR AGE;
+WITH HospitalBill;
+RUN;
+
+/*Data visualization*/
+ODS GRAPHICS ON;
+
+PROC CORR DATA=HOSPITALS PLOTS=SCATTER;
+VAR AGE;
+WITH HospitalBill;
+RUN;
+
+PROC CORR DATA=HOSPITALS PLOTS=(SCATTER MATRIX);
+VAR AGE;
+WITH HospitalBill;
+RUN;
