@@ -1,0 +1,501 @@
+Item	Brand
+Camera	Plus
+Phone	Plus
+Tablet	Generic
+Washer	Generic
+TV	Generic
+Phone	Plus
+Laptop	Generic
+E-Reader	Generic
+E-Reader	Plus
+Desktop CPU	Plus
+Laptop	Plus
+MP3 Player	Plus
+MP3 Player	Plus
+E-Reader	Plus
+Camera	Plus
+Phone	Generic
+E-Reader	Generic
+MP3 Player	Plus
+GPS	Generic
+MP3 Player	Generic
+Camera	Plus
+Phone	Generic
+MP3 Player	Plus
+E-Reader	Generic
+Phone	Generic
+Dryer	Generic
+Phone	Plus
+E-Reader	Generic
+MP3 Player	Plus
+Tablet	Generic
+Desktop CPU	Generic
+MP3 Player	Generic
+TV	Plus
+Tablet	Generic
+Guitar	Plus
+MP3 Player	Generic
+Guitar	Plus
+E-Reader	Generic
+Dryer	Generic
+Desktop CPU	Generic
+Tablet	Plus
+MP3 Player	Generic
+Speakers	Plus
+GPS	Generic
+Laptop	Plus
+Phone	Generic
+Camera	Generic
+MP3 Player	Plus
+Speakers	Plus
+Refrigerator	Generic
+Phone	Generic
+Washer	Generic
+Phone	Plus
+Laptop	Plus
+Tablet	Plus
+GPS	Plus
+Dryer	Generic
+GPS	Generic
+TV	Plus
+GPS	Generic
+Phone	Generic
+Camera	Plus
+Guitar	Generic
+Phone	Plus
+MP3 Player	Generic
+Phone	Plus
+TV	Plus
+MP3 Player	Plus
+Camera	Generic
+Dryer	Plus
+Laptop	Plus
+E-Reader	Generic
+MP3 Player	Generic
+E-Reader	Plus
+Camera	Generic
+Phone	Plus
+Camera	Generic
+MP3 Player	Generic
+TV	Generic
+GPS	Plus
+Guitar	Plus
+Laptop	Generic
+Refrigerator	Plus
+Phone	Generic
+E-Reader	Plus
+MP3 Player	Generic
+MP3 Player	Generic
+Tablet	Generic
+Phone	Generic
+Phone	Generic
+MP3 Player	Plus
+E-Reader	Generic
+MP3 Player	Generic
+Camera	Generic
+GPS	Plus
+TV	Plus
+Phone	Plus
+Tablet	Generic
+GPS	Plus
+MP3 Player	Generic
+Washer	Plus
+MP3 Player	Generic
+Phone	Plus
+Laptop	Generic
+Phone	Plus
+Laptop	Generic
+Phone	Plus
+E-Reader	Plus
+E-Reader	Generic
+Phone	Plus
+TV	Generic
+Dryer	Plus
+E-Reader	Generic
+Laptop	Plus
+Refrigerator	Generic
+MP3 Player	Plus
+TV	Generic
+Camera	Plus
+Phone	Generic
+GPS	Plus
+MP3 Player	Generic
+Guitar	Generic
+TV	Plus
+Speakers	Generic
+Phone	Generic
+Camera	Plus
+Guitar	Generic
+TV	Generic
+Phone	Generic
+Washer	Plus
+Phone	Generic
+E-Reader	Plus
+Desktop CPU	Plus
+Refrigerator	Generic
+MP3 Player	Generic
+Phone	Plus
+Phone	Generic
+MP3 Player	Plus
+Phone	Generic
+Camera	Plus
+Speakers	Generic
+Tablet	Plus
+Phone	Generic
+Phone	Plus
+Desktop CPU	Generic
+Desktop CPU	Plus
+TV	Generic
+MP3 Player	Plus
+Tablet	Plus
+E-Reader	Plus
+Camera	Plus
+MP3 Player	Plus
+MP3 Player	Plus
+Tablet	Plus
+Laptop	Generic
+TV	Plus
+E-Reader	Plus
+Phone	Generic
+Phone	Plus
+MP3 Player	Generic
+Phone	Generic
+Laptop	Generic
+E-Reader	Plus
+Tablet	Plus
+Washer	Plus
+Camera	Plus
+Phone	Plus
+MP3 Player	Generic
+Camera	Generic
+MP3 Player	Generic
+E-Reader	Generic
+Tablet	Plus
+Laptop	Generic
+Laptop	Plus
+Laptop	Generic
+Camera	Generic
+Phone	Plus
+E-Reader	Plus
+Phone	Generic
+Phone	Generic
+Phone	Generic
+Camera	Plus
+Dryer	Generic
+Phone	Generic
+Tablet	Plus
+Guitar	Generic
+E-Reader	Generic
+Phone	Generic
+Tablet	Generic
+Tablet	Plus
+Camera	Plus
+Phone	Plus
+Phone	Plus
+GPS	Generic
+GPS	Plus
+MP3 Player	Plus
+Speakers	Plus
+Guitar	Plus
+E-Reader	Generic
+MP3 Player	Generic
+MP3 Player	Plus
+Phone	Plus
+Phone	Plus
+Laptop	Generic
+Dryer	Plus
+Laptop	Plus
+MP3 Player	Plus
+Desktop CPU	Generic
+Phone	Generic
+MP3 Player	Generic
+Tablet	Generic
+MP3 Player	Plus
+MP3 Player	Generic
+MP3 Player	Plus
+TV	Plus
+Phone	Plus
+Laptop	Plus
+MP3 Player	Generic
+E-Reader	Plus
+Camera	Generic
+Phone	Plus
+Phone	Plus
+Washer	Plus
+Camera	Generic
+E-Reader	Generic
+Speakers	Generic
+MP3 Player	Generic
+Refrigerator	Generic
+Refrigerator	Plus
+Phone	Generic
+E-Reader	Generic
+E-Reader	Plus
+Phone	Plus
+E-Reader	Generic
+Tablet	Generic
+Laptop	Generic
+Phone	Generic
+Phone	Generic
+Laptop	Plus
+MP3 Player	Plus
+MP3 Player	Plus
+Tablet	Plus
+Phone	Generic
+MP3 Player	Generic
+MP3 Player	Generic
+MP3 Player	Plus
+Phone	Generic
+Washer	Generic
+Tablet	Plus
+MP3 Player	Plus
+Laptop	Generic
+Tablet	Plus
+Tablet	Plus
+Laptop	Generic
+Camera	Plus
+Phone	Plus
+MP3 Player	Plus
+MP3 Player	Generic
+Camera	Generic
+MP3 Player	Plus
+Tablet	Plus
+Phone	Generic
+Desktop CPU	Generic
+TV	Plus
+E-Reader	Generic
+Laptop	Generic
+Tablet	Generic
+Phone	Generic
+Dryer	Generic
+TV	Plus
+Tablet	Plus
+Camera	Generic
+Tablet	Plus
+MP3 Player	Generic
+E-Reader	Generic
+Tablet	Plus
+GPS	Plus
+Laptop	Plus
+Laptop	Generic
+GPS	Plus
+Phone	Plus
+Phone	Generic
+Phone	Plus
+Camera	Plus
+Phone	Plus
+Camera	Generic
+Phone	Generic
+Laptop	Plus
+Phone	Generic
+Phone	Generic
+Washer	Generic
+Laptop	Plus
+Phone	Generic
+Phone	Plus
+MP3 Player	Generic
+TV	Plus
+Tablet	Generic
+TV	Plus
+MP3 Player	Generic
+MP3 Player	Plus
+GPS	Generic
+MP3 Player	Plus
+TV	Generic
+Phone	Generic
+E-Reader	Plus
+MP3 Player	Plus
+Speakers	Generic
+Dryer	Generic
+MP3 Player	Plus
+Laptop	Plus
+Phone	Generic
+GPS	Plus
+MP3 Player	Generic
+Laptop	Generic
+E-Reader	Plus
+Guitar	Generic
+GPS	Generic
+Phone	Plus
+E-Reader	Plus
+Camera	Plus
+Camera	Plus
+E-Reader	Generic
+Phone	Generic
+Laptop	Plus
+E-Reader	Generic
+E-Reader	Generic
+Phone	Generic
+MP3 Player	Plus
+Phone	Generic
+TV	Plus
+Laptop	Generic
+MP3 Player	Plus
+TV	Plus
+TV	Plus
+E-Reader	Plus
+Phone	Plus
+Camera	Generic
+Tablet	Generic
+Refrigerator	Plus
+MP3 Player	Generic
+MP3 Player	Plus
+Laptop	Plus
+MP3 Player	Plus
+E-Reader	Plus
+MP3 Player	Generic
+Phone	Generic
+Phone	Plus
+Camera	Plus
+MP3 Player	Plus
+GPS	Plus
+Camera	Plus
+Phone	Plus
+Phone	Generic
+E-Reader	Plus
+Phone	Plus
+Desktop CPU	Generic
+MP3 Player	Generic
+MP3 Player	Generic
+MP3 Player	Generic
+MP3 Player	Generic
+TV	Plus
+MP3 Player	Generic
+MP3 Player	Generic
+MP3 Player	Plus
+MP3 Player	Plus
+Laptop	Plus
+Camera	Plus
+Phone	Generic
+Laptop	Generic
+Phone	Generic
+E-Reader	Plus
+Desktop CPU	Generic
+Phone	Generic
+Laptop	Generic
+TV	Generic
+Laptop	Plus
+MP3 Player	Generic
+Tablet	Plus
+E-Reader	Generic
+MP3 Player	Plus
+MP3 Player	Plus
+Tablet	Plus
+MP3 Player	Plus
+GPS	Generic
+Speakers	Generic
+Camera	Plus
+Laptop	Plus
+E-Reader	Plus
+Desktop CPU	Plus
+Tablet	Plus
+Phone	Plus
+TV	Generic
+TV	Generic
+Laptop	Plus
+Desktop CPU	Generic
+Camera	Plus
+Phone	Plus
+Desktop CPU	Plus
+Laptop	Plus
+E-Reader	Generic
+Desktop CPU	Plus
+Laptop	Plus
+MP3 Player	Plus
+Camera	Plus
+Washer	Generic
+MP3 Player	Generic
+Camera	Generic
+MP3 Player	Generic
+MP3 Player	Generic
+Phone	Generic
+Desktop CPU	Plus
+MP3 Player	Generic
+Phone	Generic
+Speakers	Generic
+MP3 Player	Generic
+MP3 Player	Plus
+MP3 Player	Plus
+TV	Generic
+MP3 Player	Generic
+Phone	Generic
+Phone	Generic
+Refrigerator	Plus
+Tablet	Generic
+TV	Plus
+E-Reader	Plus
+MP3 Player	Plus
+E-Reader	Generic
+Camera	Plus
+GPS	Generic
+Laptop	Plus
+Phone	Generic
+TV	Generic
+Speakers	Plus
+TV	Generic
+Laptop	Plus
+Desktop CPU	Generic
+MP3 Player	Generic
+Laptop	Plus
+Desktop CPU	Generic
+Refrigerator	Generic
+MP3 Player	Generic
+MP3 Player	Generic
+MP3 Player	Generic
+Laptop	Plus
+Tablet	Generic
+E-Reader	Generic
+TV	Plus
+Desktop CPU	Generic
+Phone	Plus
+Phone	Generic
+Camera	Generic
+Tablet	Plus
+Phone	Plus
+E-Reader	Plus
+Phone	Generic
+Tablet	Plus
+Tablet	Generic
+Tablet	Generic
+Guitar	Plus
+GPS	Generic
+MP3 Player	Generic
+Tablet	Plus
+Phone	Plus
+Laptop	Plus
+MP3 Player	Generic
+Laptop	Plus
+E-Reader	Plus
+Camera	Generic
+Desktop CPU	Generic
+MP3 Player	Generic
+E-Reader	Plus
+MP3 Player	Generic
+Refrigerator	Generic
+Camera	Generic
+Tablet	Generic
+MP3 Player	Plus
+MP3 Player	Generic
+Phone	Plus
+Camera	Generic
+Washer	Plus
+Phone	Plus
+Phone	Plus
+MP3 Player	Plus
+Laptop	Plus
+Phone	Plus
+Phone	Plus
+Laptop	Plus
+E-Reader	Generic
+MP3 Player	Generic
+Phone	Plus
+E-Reader	Generic
+Desktop CPU	Generic
+Tablet	Plus
+Laptop	Generic
+Laptop	Generic
+Phone	Generic
+MP3 Player	Plus
+MP3 Player	Generic
+Laptop	Generic
+Dryer	Plus

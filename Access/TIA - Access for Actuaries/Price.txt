@@ -1,0 +1,29 @@
+Item	Brand	Price
+Refrigerator	Generic	200
+TV	Generic	140
+Dryer	Generic	100
+Laptop	Generic	100
+Washer	Generic	100
+Desktop CPU	Generic	80
+Camera	Generic	70
+Guitar	Generic	60
+Speakers	Generic	50
+Phone	Generic	35
+Tablet	Generic	25
+E-Reader	Generic	20
+MP3 Player	Generic	20
+GPS	Generic	5
+Refrigerator	Plus	240
+TV	Plus	168
+Dryer	Plus	120
+Laptop	Plus	120
+Washer	Plus	120
+Desktop CPU	Plus	96
+Camera	Plus	84
+Guitar	Plus	72
+Speakers	Plus	60
+Phone	Plus	42
+Tablet	Plus	30
+E-Reader	Plus	24
+MP3 Player	Plus	24
+GPS	Plus	6

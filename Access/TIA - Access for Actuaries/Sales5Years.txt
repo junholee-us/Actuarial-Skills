@@ -1,0 +1,2693 @@
+Year	Item	Brand	WarrantyRevenue
+2012	Camera	Plus	84
+2012	Phone	Plus	42
+2012	Tablet	Generic	25
+2012	Washer	Generic	100
+2012	TV	Generic	140
+2012	Phone	Plus	42
+2012	Laptop	Generic	100
+2012	E-Reader	Generic	20
+2012	E-Reader	Plus	24
+2012	Desktop CPU	Plus	96
+2012	Laptop	Plus	120
+2012	MP3 Player	Plus	24
+2012	MP3 Player	Plus	24
+2012	E-Reader	Plus	24
+2012	Camera	Plus	84
+2012	Phone	Generic	35
+2012	E-Reader	Generic	20
+2012	MP3 Player	Plus	24
+2012	GPS	Generic	5
+2012	MP3 Player	Generic	20
+2012	Camera	Plus	84
+2012	Phone	Generic	35
+2012	MP3 Player	Plus	24
+2012	E-Reader	Generic	20
+2012	Phone	Generic	35
+2012	Dryer	Generic	100
+2012	Phone	Plus	42
+2012	E-Reader	Generic	20
+2012	MP3 Player	Plus	24
+2012	Tablet	Generic	25
+2012	Desktop CPU	Generic	80
+2012	MP3 Player	Generic	20
+2012	TV	Plus	168
+2012	Tablet	Generic	25
+2012	Guitar	Plus	72
+2012	MP3 Player	Generic	20
+2012	Guitar	Plus	72
+2012	E-Reader	Generic	20
+2012	Dryer	Generic	100
+2012	Desktop CPU	Generic	80
+2012	Tablet	Plus	30
+2012	MP3 Player	Generic	20
+2012	Speakers	Plus	60
+2012	GPS	Generic	5
+2012	Laptop	Plus	120
+2012	Phone	Generic	35
+2012	Camera	Generic	70
+2012	MP3 Player	Plus	24
+2012	Speakers	Plus	60
+2012	Refrigerator	Generic	200
+2012	Phone	Generic	35
+2012	Washer	Generic	100
+2012	Phone	Plus	42
+2012	Laptop	Plus	120
+2012	Tablet	Plus	30
+2012	GPS	Plus	6
+2012	Dryer	Generic	100
+2012	GPS	Generic	5
+2012	TV	Plus	168
+2012	GPS	Generic	5
+2012	Phone	Generic	35
+2012	Camera	Plus	84
+2012	Guitar	Generic	60
+2012	Phone	Plus	42
+2012	MP3 Player	Generic	20
+2012	Phone	Plus	42
+2012	TV	Plus	168
+2012	MP3 Player	Plus	24
+2012	Camera	Generic	70
+2012	Dryer	Plus	120
+2012	Laptop	Plus	120
+2012	E-Reader	Generic	20
+2012	MP3 Player	Generic	20
+2012	E-Reader	Plus	24
+2012	Camera	Generic	70
+2012	Phone	Plus	42
+2012	Camera	Generic	70
+2012	MP3 Player	Generic	20
+2012	TV	Generic	140
+2012	GPS	Plus	6
+2012	Guitar	Plus	72
+2012	Laptop	Generic	100
+2012	Refrigerator	Plus	240
+2012	Phone	Generic	35
+2012	E-Reader	Plus	24
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Generic	20
+2012	Tablet	Generic	25
+2012	Phone	Generic	35
+2012	Phone	Generic	35
+2012	MP3 Player	Plus	24
+2012	E-Reader	Generic	20
+2012	MP3 Player	Generic	20
+2012	Camera	Generic	70
+2012	GPS	Plus	6
+2012	TV	Plus	168
+2012	Phone	Plus	42
+2012	Tablet	Generic	25
+2012	GPS	Plus	6
+2012	MP3 Player	Generic	20
+2012	Washer	Plus	120
+2012	MP3 Player	Generic	20
+2012	Phone	Plus	42
+2012	Laptop	Generic	100
+2012	Phone	Plus	42
+2012	Laptop	Generic	100
+2012	Phone	Plus	42
+2012	E-Reader	Plus	24
+2012	E-Reader	Generic	20
+2012	Phone	Plus	42
+2012	TV	Generic	140
+2012	Dryer	Plus	120
+2012	E-Reader	Generic	20
+2012	Laptop	Plus	120
+2012	Refrigerator	Generic	200
+2012	MP3 Player	Plus	24
+2012	TV	Generic	140
+2012	Camera	Plus	84
+2012	Phone	Generic	35
+2012	GPS	Plus	6
+2012	MP3 Player	Generic	20
+2012	Guitar	Generic	60
+2012	TV	Plus	168
+2012	Speakers	Generic	50
+2012	Phone	Generic	35
+2012	Camera	Plus	84
+2012	Guitar	Generic	60
+2012	TV	Generic	140
+2012	Phone	Generic	35
+2012	Washer	Plus	120
+2012	Phone	Generic	35
+2012	E-Reader	Plus	24
+2012	Desktop CPU	Plus	96
+2012	Refrigerator	Generic	200
+2012	MP3 Player	Generic	20
+2012	Phone	Plus	42
+2012	Phone	Generic	35
+2012	MP3 Player	Plus	24
+2012	Phone	Generic	35
+2012	Camera	Plus	84
+2012	Speakers	Generic	50
+2012	Tablet	Plus	30
+2012	Phone	Generic	35
+2012	Phone	Plus	42
+2012	Desktop CPU	Generic	80
+2012	Desktop CPU	Plus	96
+2012	TV	Generic	140
+2012	MP3 Player	Plus	24
+2012	Tablet	Plus	30
+2012	E-Reader	Plus	24
+2012	Camera	Plus	84
+2012	MP3 Player	Plus	24
+2012	MP3 Player	Plus	24
+2012	Tablet	Plus	30
+2012	Laptop	Generic	100
+2012	TV	Plus	168
+2012	E-Reader	Plus	24
+2012	Phone	Generic	35
+2012	Phone	Plus	42
+2012	MP3 Player	Generic	20
+2012	Phone	Generic	35
+2012	Laptop	Generic	100
+2012	E-Reader	Plus	24
+2012	Tablet	Plus	30
+2012	Washer	Plus	120
+2012	Camera	Plus	84
+2012	Phone	Plus	42
+2012	MP3 Player	Generic	20
+2012	Camera	Generic	70
+2012	MP3 Player	Generic	20
+2012	E-Reader	Generic	20
+2012	Tablet	Plus	30
+2012	Laptop	Generic	100
+2012	Laptop	Plus	120
+2012	Laptop	Generic	100
+2012	Camera	Generic	70
+2012	Phone	Plus	42
+2012	E-Reader	Plus	24
+2012	Phone	Generic	35
+2012	Phone	Generic	35
+2012	Phone	Generic	35
+2012	Camera	Plus	84
+2012	Dryer	Generic	100
+2012	Phone	Generic	35
+2012	Tablet	Plus	30
+2012	Guitar	Generic	60
+2012	E-Reader	Generic	20
+2012	Phone	Generic	35
+2012	Tablet	Generic	25
+2012	Tablet	Plus	30
+2012	Camera	Plus	84
+2012	Phone	Plus	42
+2012	Phone	Plus	42
+2012	GPS	Generic	5
+2012	GPS	Plus	6
+2012	MP3 Player	Plus	24
+2012	Speakers	Plus	60
+2012	Guitar	Plus	72
+2012	E-Reader	Generic	20
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Plus	24
+2012	Phone	Plus	42
+2012	Phone	Plus	42
+2012	Laptop	Generic	100
+2012	Dryer	Plus	120
+2012	Laptop	Plus	120
+2012	MP3 Player	Plus	24
+2012	Desktop CPU	Generic	80
+2012	Phone	Generic	35
+2012	MP3 Player	Generic	20
+2012	Tablet	Generic	25
+2012	MP3 Player	Plus	24
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Plus	24
+2012	TV	Plus	168
+2012	Phone	Plus	42
+2012	Laptop	Plus	120
+2012	MP3 Player	Generic	20
+2012	E-Reader	Plus	24
+2012	Camera	Generic	70
+2012	Phone	Plus	42
+2012	Phone	Plus	42
+2012	Washer	Plus	120
+2012	Camera	Generic	70
+2012	E-Reader	Generic	20
+2012	Speakers	Generic	50
+2012	MP3 Player	Generic	20
+2012	Refrigerator	Generic	200
+2012	Refrigerator	Plus	240
+2012	Phone	Generic	35
+2012	E-Reader	Generic	20
+2012	E-Reader	Plus	24
+2012	Phone	Plus	42
+2012	E-Reader	Generic	20
+2012	Tablet	Generic	25
+2012	Laptop	Generic	100
+2012	Phone	Generic	35
+2012	Phone	Generic	35
+2012	Laptop	Plus	120
+2012	MP3 Player	Plus	24
+2012	MP3 Player	Plus	24
+2012	Tablet	Plus	30
+2012	Phone	Generic	35
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Plus	24
+2012	Phone	Generic	35
+2012	Washer	Generic	100
+2012	Tablet	Plus	30
+2012	MP3 Player	Plus	24
+2012	Laptop	Generic	100
+2012	Tablet	Plus	30
+2012	Tablet	Plus	30
+2012	Laptop	Generic	100
+2012	Camera	Plus	84
+2012	Phone	Plus	42
+2012	MP3 Player	Plus	24
+2012	MP3 Player	Generic	20
+2012	Camera	Generic	70
+2012	MP3 Player	Plus	24
+2012	Tablet	Plus	30
+2012	Phone	Generic	35
+2012	Desktop CPU	Generic	80
+2012	TV	Plus	168
+2012	E-Reader	Generic	20
+2012	Laptop	Generic	100
+2012	Tablet	Generic	25
+2012	Phone	Generic	35
+2012	Dryer	Generic	100
+2012	TV	Plus	168
+2012	Tablet	Plus	30
+2012	Camera	Generic	70
+2012	Tablet	Plus	30
+2012	MP3 Player	Generic	20
+2012	E-Reader	Generic	20
+2012	Tablet	Plus	30
+2012	GPS	Plus	6
+2012	Laptop	Plus	120
+2012	Laptop	Generic	100
+2012	GPS	Plus	6
+2012	Phone	Plus	42
+2012	Phone	Generic	35
+2012	Phone	Plus	42
+2012	Camera	Plus	84
+2012	Phone	Plus	42
+2012	Camera	Generic	70
+2012	Phone	Generic	35
+2012	Laptop	Plus	120
+2012	Phone	Generic	35
+2012	Phone	Generic	35
+2012	Washer	Generic	100
+2012	Laptop	Plus	120
+2012	Phone	Generic	35
+2012	Phone	Plus	42
+2012	MP3 Player	Generic	20
+2012	TV	Plus	168
+2012	Tablet	Generic	25
+2012	TV	Plus	168
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Plus	24
+2012	GPS	Generic	5
+2012	MP3 Player	Plus	24
+2012	TV	Generic	140
+2012	Phone	Generic	35
+2012	E-Reader	Plus	24
+2012	MP3 Player	Plus	24
+2012	Speakers	Generic	50
+2012	Dryer	Generic	100
+2012	MP3 Player	Plus	24
+2012	Laptop	Plus	120
+2012	Phone	Generic	35
+2012	GPS	Plus	6
+2012	MP3 Player	Generic	20
+2012	Laptop	Generic	100
+2012	E-Reader	Plus	24
+2012	Guitar	Generic	60
+2012	GPS	Generic	5
+2012	Phone	Plus	42
+2012	E-Reader	Plus	24
+2012	Camera	Plus	84
+2012	Camera	Plus	84
+2012	E-Reader	Generic	20
+2012	Phone	Generic	35
+2012	Laptop	Plus	120
+2012	E-Reader	Generic	20
+2012	E-Reader	Generic	20
+2012	Phone	Generic	35
+2012	MP3 Player	Plus	24
+2012	Phone	Generic	35
+2012	TV	Plus	168
+2012	Laptop	Generic	100
+2012	MP3 Player	Plus	24
+2012	TV	Plus	168
+2012	TV	Plus	168
+2012	E-Reader	Plus	24
+2012	Phone	Plus	42
+2012	Camera	Generic	70
+2012	Tablet	Generic	25
+2012	Refrigerator	Plus	240
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Plus	24
+2012	Laptop	Plus	120
+2012	MP3 Player	Plus	24
+2012	E-Reader	Plus	24
+2012	MP3 Player	Generic	20
+2012	Phone	Generic	35
+2012	Phone	Plus	42
+2012	Camera	Plus	84
+2012	MP3 Player	Plus	24
+2012	GPS	Plus	6
+2012	Camera	Plus	84
+2012	Phone	Plus	42
+2012	Phone	Generic	35
+2012	E-Reader	Plus	24
+2012	Phone	Plus	42
+2012	Desktop CPU	Generic	80
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Generic	20
+2012	TV	Plus	168
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Plus	24
+2012	MP3 Player	Plus	24
+2012	Laptop	Plus	120
+2012	Camera	Plus	84
+2012	Phone	Generic	35
+2012	Laptop	Generic	100
+2012	Phone	Generic	35
+2012	E-Reader	Plus	24
+2012	Desktop CPU	Generic	80
+2012	Phone	Generic	35
+2012	Laptop	Generic	100
+2012	TV	Generic	140
+2012	Laptop	Plus	120
+2012	MP3 Player	Generic	20
+2012	Tablet	Plus	30
+2012	E-Reader	Generic	20
+2012	MP3 Player	Plus	24
+2012	MP3 Player	Plus	24
+2012	Tablet	Plus	30
+2012	MP3 Player	Plus	24
+2012	GPS	Generic	5
+2012	Speakers	Generic	50
+2012	Camera	Plus	84
+2012	Laptop	Plus	120
+2012	E-Reader	Plus	24
+2012	Desktop CPU	Plus	96
+2012	Tablet	Plus	30
+2012	Phone	Plus	42
+2012	TV	Generic	140
+2012	TV	Generic	140
+2012	Laptop	Plus	120
+2012	Desktop CPU	Generic	80
+2012	Camera	Plus	84
+2012	Phone	Plus	42
+2012	Desktop CPU	Plus	96
+2012	Laptop	Plus	120
+2012	E-Reader	Generic	20
+2012	Desktop CPU	Plus	96
+2012	Laptop	Plus	120
+2012	MP3 Player	Plus	24
+2012	Camera	Plus	84
+2012	Washer	Generic	100
+2012	MP3 Player	Generic	20
+2012	Camera	Generic	70
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Generic	20
+2012	Phone	Generic	35
+2012	Desktop CPU	Plus	96
+2012	MP3 Player	Generic	20
+2012	Phone	Generic	35
+2012	Speakers	Generic	50
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Plus	24
+2012	MP3 Player	Plus	24
+2012	TV	Generic	140
+2012	MP3 Player	Generic	20
+2012	Phone	Generic	35
+2012	Phone	Generic	35
+2012	Refrigerator	Plus	240
+2012	Tablet	Generic	25
+2012	TV	Plus	168
+2012	E-Reader	Plus	24
+2012	MP3 Player	Plus	24
+2012	E-Reader	Generic	20
+2012	Camera	Plus	84
+2012	GPS	Generic	5
+2012	Laptop	Plus	120
+2012	Phone	Generic	35
+2012	TV	Generic	140
+2012	Speakers	Plus	60
+2012	TV	Generic	140
+2012	Laptop	Plus	120
+2012	Desktop CPU	Generic	80
+2012	MP3 Player	Generic	20
+2012	Laptop	Plus	120
+2012	Desktop CPU	Generic	80
+2012	Refrigerator	Generic	200
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Generic	20
+2012	MP3 Player	Generic	20
+2012	Laptop	Plus	120
+2012	Tablet	Generic	25
+2012	E-Reader	Generic	20
+2012	TV	Plus	168
+2012	Desktop CPU	Generic	80
+2012	Phone	Plus	42
+2012	Phone	Generic	35
+2012	Camera	Generic	70
+2012	Tablet	Plus	30
+2012	Phone	Plus	42
+2012	E-Reader	Plus	24
+2012	Phone	Generic	35
+2012	Tablet	Plus	30
+2012	Tablet	Generic	25
+2012	Tablet	Generic	25
+2012	Guitar	Plus	72
+2012	GPS	Generic	5
+2012	MP3 Player	Generic	20
+2012	Tablet	Plus	30
+2012	Phone	Plus	42
+2012	Laptop	Plus	120
+2012	MP3 Player	Generic	20
+2012	Laptop	Plus	120
+2012	E-Reader	Plus	24
+2012	Camera	Generic	70
+2012	Desktop CPU	Generic	80
+2012	MP3 Player	Generic	20
+2012	E-Reader	Plus	24
+2012	MP3 Player	Generic	20
+2012	Refrigerator	Generic	200
+2012	Camera	Generic	70
+2012	Tablet	Generic	25
+2012	MP3 Player	Plus	24
+2012	MP3 Player	Generic	20
+2012	Phone	Plus	42
+2012	Camera	Generic	70
+2012	Washer	Plus	120
+2012	Phone	Plus	42
+2012	Phone	Plus	42
+2012	MP3 Player	Plus	24
+2012	Laptop	Plus	120
+2012	Phone	Plus	42
+2012	Phone	Plus	42
+2012	Laptop	Plus	120
+2012	E-Reader	Generic	20
+2012	MP3 Player	Generic	20
+2012	Phone	Plus	42
+2012	E-Reader	Generic	20
+2012	Desktop CPU	Generic	80
+2012	Tablet	Plus	30
+2012	Laptop	Generic	100
+2012	Laptop	Generic	100
+2012	Phone	Generic	35
+2012	MP3 Player	Plus	24
+2012	MP3 Player	Generic	20
+2012	Laptop	Generic	100
+2012	Dryer	Plus	120
+2011	Laptop	Plus	120
+2011	Laptop	Plus	120
+2011	TV	Generic	140
+2011	GPS	Plus	6
+2011	E-Reader	Plus	24
+2011	E-Reader	Plus	24
+2011	Tablet	Plus	30
+2011	Laptop	Plus	120
+2011	Laptop	Generic	100
+2011	Laptop	Plus	120
+2011	TV	Plus	168
+2011	Phone	Plus	42
+2011	Phone	Generic	35
+2011	E-Reader	Plus	24
+2011	Tablet	Plus	30
+2011	Phone	Plus	42
+2011	TV	Generic	140
+2011	Laptop	Generic	100
+2011	Dryer	Generic	100
+2011	Tablet	Plus	30
+2011	Speakers	Plus	60
+2011	Dryer	Generic	100
+2011	TV	Plus	168
+2011	E-Reader	Plus	24
+2011	Phone	Plus	42
+2011	Phone	Generic	35
+2011	Tablet	Plus	30
+2011	Laptop	Plus	120
+2011	TV	Plus	168
+2011	TV	Plus	168
+2011	Laptop	Generic	100
+2011	Dryer	Plus	120
+2011	Phone	Generic	35
+2011	Camera	Plus	84
+2011	Desktop CPU	Plus	96
+2011	Laptop	Generic	100
+2011	Laptop	Plus	120
+2011	Desktop CPU	Generic	80
+2011	Tablet	Plus	30
+2011	Guitar	Plus	72
+2011	Tablet	Generic	25
+2011	TV	Generic	140
+2011	MP3 Player	Generic	20
+2011	Laptop	Plus	120
+2011	E-Reader	Generic	20
+2011	Laptop	Generic	100
+2011	Tablet	Plus	30
+2011	Washer	Plus	120
+2011	Phone	Generic	35
+2011	Phone	Generic	35
+2011	Tablet	Generic	25
+2011	Tablet	Generic	25
+2011	Dryer	Plus	120
+2011	Laptop	Generic	100
+2011	E-Reader	Generic	20
+2011	Laptop	Plus	120
+2011	Laptop	Plus	120
+2011	Desktop CPU	Generic	80
+2011	Speakers	Generic	50
+2011	Phone	Plus	42
+2011	Phone	Generic	35
+2011	Phone	Generic	35
+2011	Desktop CPU	Plus	96
+2011	Tablet	Generic	25
+2011	Laptop	Generic	100
+2011	MP3 Player	Generic	20
+2011	Phone	Plus	42
+2011	Refrigerator	Plus	240
+2011	Tablet	Plus	30
+2011	Desktop CPU	Plus	96
+2011	Phone	Plus	42
+2011	Tablet	Generic	25
+2011	MP3 Player	Plus	24
+2011	Phone	Generic	35
+2011	Desktop CPU	Plus	96
+2011	Phone	Generic	35
+2011	Desktop CPU	Plus	96
+2011	Tablet	Plus	30
+2011	Laptop	Generic	100
+2011	Tablet	Plus	30
+2011	Phone	Plus	42
+2011	Laptop	Generic	100
+2011	Laptop	Generic	100
+2011	Phone	Generic	35
+2011	Phone	Plus	42
+2011	Refrigerator	Generic	200
+2011	TV	Generic	140
+2011	E-Reader	Generic	20
+2011	TV	Generic	140
+2011	TV	Generic	140
+2011	Laptop	Plus	120
+2011	Tablet	Generic	25
+2011	Laptop	Plus	120
+2011	Phone	Generic	35
+2011	Phone	Plus	42
+2011	Camera	Plus	84
+2011	Phone	Generic	35
+2011	E-Reader	Plus	24
+2011	Desktop CPU	Plus	96
+2011	Speakers	Generic	50
+2011	Dryer	Generic	100
+2011	Phone	Plus	42
+2011	Washer	Plus	120
+2011	E-Reader	Plus	24
+2011	Phone	Generic	35
+2011	Laptop	Generic	100
+2011	Laptop	Plus	120
+2011	Laptop	Plus	120
+2011	E-Reader	Generic	20
+2011	Camera	Plus	84
+2011	Phone	Generic	35
+2011	TV	Generic	140
+2011	Laptop	Generic	100
+2011	E-Reader	Generic	20
+2011	Phone	Plus	42
+2011	Tablet	Generic	25
+2011	MP3 Player	Generic	20
+2011	Phone	Generic	35
+2011	MP3 Player	Plus	24
+2011	Dryer	Plus	120
+2011	MP3 Player	Generic	20
+2011	Laptop	Plus	120
+2011	Phone	Generic	35
+2011	Dryer	Plus	120
+2011	Tablet	Plus	30
+2011	Laptop	Plus	120
+2011	Laptop	Generic	100
+2011	Tablet	Generic	25
+2011	Laptop	Plus	120
+2011	Phone	Plus	42
+2011	Dryer	Plus	120
+2011	Tablet	Generic	25
+2011	Desktop CPU	Plus	96
+2011	Laptop	Plus	120
+2011	Tablet	Plus	30
+2011	Laptop	Generic	100
+2011	Laptop	Generic	100
+2011	Phone	Plus	42
+2011	TV	Plus	168
+2011	Laptop	Plus	120
+2011	Camera	Generic	70
+2011	Phone	Generic	35
+2011	TV	Plus	168
+2011	Laptop	Generic	100
+2011	Washer	Plus	120
+2011	Phone	Generic	35
+2011	E-Reader	Generic	20
+2011	TV	Generic	140
+2011	Laptop	Generic	100
+2011	Desktop CPU	Generic	80
+2011	Tablet	Plus	30
+2011	Phone	Generic	35
+2011	Laptop	Generic	100
+2011	GPS	Plus	6
+2011	Refrigerator	Plus	240
+2011	Phone	Generic	35
+2011	Phone	Generic	35
+2011	Washer	Plus	120
+2011	TV	Plus	168
+2011	Phone	Generic	35
+2011	TV	Plus	168
+2011	Tablet	Plus	30
+2011	Laptop	Plus	120
+2011	Speakers	Plus	60
+2011	Desktop CPU	Generic	80
+2011	Laptop	Generic	100
+2011	Tablet	Plus	30
+2011	Phone	Plus	42
+2011	Laptop	Generic	100
+2011	Tablet	Generic	25
+2011	Phone	Plus	42
+2011	Phone	Plus	42
+2011	Refrigerator	Plus	240
+2011	Phone	Plus	42
+2011	GPS	Generic	5
+2011	Laptop	Plus	120
+2011	Phone	Generic	35
+2011	Phone	Generic	35
+2011	TV	Generic	140
+2011	Tablet	Generic	25
+2011	Desktop CPU	Plus	96
+2011	Washer	Plus	120
+2011	Phone	Generic	35
+2011	MP3 Player	Generic	20
+2011	Tablet	Plus	30
+2011	Speakers	Plus	60
+2011	Desktop CPU	Generic	80
+2011	Desktop CPU	Generic	80
+2011	E-Reader	Generic	20
+2011	Laptop	Generic	100
+2011	Desktop CPU	Plus	96
+2011	GPS	Plus	6
+2011	Speakers	Plus	60
+2011	Laptop	Generic	100
+2011	Speakers	Generic	50
+2011	Tablet	Generic	25
+2011	Phone	Plus	42
+2011	MP3 Player	Generic	20
+2011	Washer	Generic	100
+2011	Laptop	Generic	100
+2011	GPS	Generic	5
+2011	Refrigerator	Generic	200
+2011	Laptop	Generic	100
+2011	Phone	Generic	35
+2011	Tablet	Generic	25
+2011	Laptop	Generic	100
+2011	Desktop CPU	Generic	80
+2011	Washer	Generic	100
+2011	Phone	Plus	42
+2011	Washer	Plus	120
+2011	Dryer	Plus	120
+2011	Phone	Generic	35
+2011	MP3 Player	Plus	24
+2011	Guitar	Plus	72
+2011	Desktop CPU	Generic	80
+2011	Washer	Generic	100
+2011	Tablet	Plus	30
+2011	Refrigerator	Generic	200
+2011	TV	Generic	140
+2011	Tablet	Plus	30
+2011	E-Reader	Generic	20
+2011	Speakers	Generic	50
+2011	Laptop	Generic	100
+2011	Guitar	Generic	60
+2011	Laptop	Generic	100
+2011	Tablet	Generic	25
+2011	E-Reader	Generic	20
+2011	Washer	Plus	120
+2011	GPS	Plus	6
+2011	Tablet	Generic	25
+2011	Laptop	Generic	100
+2011	Phone	Plus	42
+2011	Phone	Plus	42
+2011	Phone	Generic	35
+2011	Phone	Generic	35
+2011	Tablet	Generic	25
+2011	Desktop CPU	Plus	96
+2011	Refrigerator	Plus	240
+2011	Washer	Generic	100
+2011	Phone	Plus	42
+2011	Laptop	Generic	100
+2011	Desktop CPU	Plus	96
+2011	Tablet	Generic	25
+2011	TV	Plus	168
+2011	TV	Generic	140
+2011	Phone	Generic	35
+2011	MP3 Player	Plus	24
+2011	Tablet	Generic	25
+2011	Tablet	Generic	25
+2011	E-Reader	Plus	24
+2011	Phone	Generic	35
+2011	TV	Generic	140
+2011	Tablet	Generic	25
+2011	Tablet	Generic	25
+2011	MP3 Player	Plus	24
+2011	Laptop	Plus	120
+2011	Phone	Generic	35
+2011	Desktop CPU	Plus	96
+2011	E-Reader	Generic	20
+2011	Tablet	Generic	25
+2011	Laptop	Plus	120
+2011	Guitar	Generic	60
+2011	Laptop	Plus	120
+2011	E-Reader	Plus	24
+2011	Phone	Generic	35
+2011	TV	Plus	168
+2011	TV	Generic	140
+2011	TV	Plus	168
+2011	Phone	Plus	42
+2011	E-Reader	Generic	20
+2011	Refrigerator	Plus	240
+2011	Washer	Plus	120
+2011	Laptop	Plus	120
+2011	Speakers	Plus	60
+2011	Refrigerator	Plus	240
+2011	Laptop	Generic	100
+2011	TV	Plus	168
+2011	Phone	Generic	35
+2011	Phone	Plus	42
+2011	Speakers	Plus	60
+2011	Refrigerator	Generic	200
+2011	Phone	Plus	42
+2011	Dryer	Generic	100
+2011	Phone	Plus	42
+2011	Dryer	Generic	100
+2011	Phone	Plus	42
+2011	Laptop	Generic	100
+2011	Phone	Plus	42
+2011	Guitar	Generic	60
+2011	Laptop	Plus	120
+2011	Tablet	Generic	25
+2011	Tablet	Generic	25
+2011	Laptop	Plus	120
+2011	Laptop	Plus	120
+2011	Laptop	Generic	100
+2011	Phone	Generic	35
+2011	E-Reader	Plus	24
+2011	TV	Generic	140
+2011	E-Reader	Generic	20
+2011	Laptop	Generic	100
+2011	Phone	Generic	35
+2011	Laptop	Generic	100
+2011	Laptop	Plus	120
+2011	Washer	Generic	100
+2011	TV	Generic	140
+2011	Phone	Generic	35
+2011	Laptop	Generic	100
+2011	Tablet	Generic	25
+2011	Laptop	Plus	120
+2011	TV	Plus	168
+2011	Tablet	Generic	25
+2011	Washer	Generic	100
+2011	Guitar	Generic	60
+2011	Laptop	Generic	100
+2011	Washer	Generic	100
+2011	Washer	Generic	100
+2011	Phone	Plus	42
+2011	Guitar	Plus	72
+2011	Desktop CPU	Generic	80
+2011	Laptop	Plus	120
+2011	Tablet	Plus	30
+2011	Speakers	Plus	60
+2011	Dryer	Plus	120
+2011	Laptop	Plus	120
+2011	Laptop	Plus	120
+2011	GPS	Plus	6
+2011	TV	Plus	168
+2011	Camera	Plus	84
+2011	TV	Generic	140
+2011	Phone	Plus	42
+2011	Dryer	Plus	120
+2011	Guitar	Plus	72
+2011	Laptop	Plus	120
+2011	Refrigerator	Plus	240
+2011	Phone	Plus	42
+2011	Desktop CPU	Generic	80
+2011	Phone	Generic	35
+2011	TV	Generic	140
+2011	Tablet	Plus	30
+2011	Tablet	Plus	30
+2011	Phone	Generic	35
+2011	Refrigerator	Plus	240
+2011	Laptop	Generic	100
+2011	Desktop CPU	Plus	96
+2011	Refrigerator	Generic	200
+2011	Phone	Generic	35
+2011	Camera	Generic	70
+2011	Tablet	Generic	25
+2011	E-Reader	Plus	24
+2011	Tablet	Plus	30
+2011	TV	Generic	140
+2011	Dryer	Generic	100
+2011	TV	Generic	140
+2011	Refrigerator	Generic	200
+2011	Laptop	Generic	100
+2011	Speakers	Plus	60
+2011	Tablet	Generic	25
+2011	Dryer	Generic	100
+2011	Laptop	Plus	120
+2011	Laptop	Generic	100
+2011	Laptop	Plus	120
+2011	Tablet	Plus	30
+2011	Speakers	Plus	60
+2011	Phone	Generic	35
+2011	Refrigerator	Plus	240
+2011	Refrigerator	Plus	240
+2011	Laptop	Generic	100
+2011	Dryer	Plus	120
+2011	MP3 Player	Generic	20
+2011	MP3 Player	Generic	20
+2011	Phone	Plus	42
+2011	Phone	Generic	35
+2011	Laptop	Generic	100
+2011	Laptop	Plus	120
+2011	Tablet	Generic	25
+2011	TV	Generic	140
+2011	Phone	Plus	42
+2011	Laptop	Generic	100
+2011	Tablet	Generic	25
+2011	Desktop CPU	Plus	96
+2011	Phone	Generic	35
+2011	Dryer	Plus	120
+2011	MP3 Player	Plus	24
+2011	Camera	Plus	84
+2011	E-Reader	Generic	20
+2011	Desktop CPU	Generic	80
+2011	Phone	Generic	35
+2011	Laptop	Plus	120
+2011	Phone	Plus	42
+2011	TV	Plus	168
+2011	GPS	Plus	6
+2011	Laptop	Generic	100
+2011	MP3 Player	Plus	24
+2011	Refrigerator	Plus	240
+2011	GPS	Generic	5
+2011	Phone	Plus	42
+2011	Speakers	Plus	60
+2011	E-Reader	Generic	20
+2011	Speakers	Generic	50
+2011	Laptop	Plus	120
+2011	Camera	Plus	84
+2011	Speakers	Generic	50
+2011	Desktop CPU	Generic	80
+2011	Tablet	Plus	30
+2011	MP3 Player	Generic	20
+2011	Dryer	Generic	100
+2011	Desktop CPU	Plus	96
+2011	Tablet	Plus	30
+2011	MP3 Player	Plus	24
+2011	Desktop CPU	Plus	96
+2011	Laptop	Plus	120
+2011	TV	Generic	140
+2011	Laptop	Plus	120
+2011	Phone	Generic	35
+2011	Camera	Plus	84
+2011	Phone	Generic	35
+2011	Desktop CPU	Generic	80
+2011	TV	Plus	168
+2011	Tablet	Plus	30
+2011	Phone	Plus	42
+2011	E-Reader	Generic	20
+2011	MP3 Player	Plus	24
+2011	E-Reader	Generic	20
+2011	Refrigerator	Plus	240
+2011	Guitar	Generic	60
+2011	GPS	Generic	5
+2011	Laptop	Plus	120
+2011	Phone	Generic	35
+2011	Laptop	Plus	120
+2011	Tablet	Plus	30
+2011	Phone	Plus	42
+2011	Tablet	Plus	30
+2011	Phone	Plus	42
+2011	Speakers	Plus	60
+2011	Laptop	Generic	100
+2011	Tablet	Plus	30
+2011	Laptop	Generic	100
+2011	Laptop	Plus	120
+2011	Washer	Plus	120
+2011	E-Reader	Plus	24
+2011	Refrigerator	Generic	200
+2011	Tablet	Generic	25
+2011	Tablet	Generic	25
+2011	Laptop	Generic	100
+2011	Phone	Plus	42
+2011	Phone	Plus	42
+2011	E-Reader	Generic	20
+2011	Desktop CPU	Generic	80
+2011	Refrigerator	Plus	240
+2011	Phone	Generic	35
+2011	Laptop	Generic	100
+2011	Phone	Generic	35
+2011	E-Reader	Plus	24
+2011	MP3 Player	Plus	24
+2011	Tablet	Plus	30
+2011	Speakers	Generic	50
+2011	Camera	Generic	70
+2011	Tablet	Plus	30
+2011	Laptop	Generic	100
+2011	TV	Generic	140
+2011	TV	Generic	140
+2011	Dryer	Generic	100
+2011	Speakers	Generic	50
+2011	Phone	Plus	42
+2011	Phone	Generic	35
+2011	E-Reader	Plus	24
+2011	Tablet	Plus	30
+2011	Phone	Generic	35
+2011	Tablet	Plus	30
+2011	Tablet	Generic	25
+2011	Tablet	Generic	25
+2011	Phone	Plus	42
+2011	Tablet	Plus	30
+2011	Tablet	Plus	30
+2011	Laptop	Generic	100
+2011	Laptop	Generic	100
+2011	Tablet	Generic	25
+2011	Washer	Generic	100
+2011	Laptop	Plus	120
+2011	Laptop	Generic	100
+2011	Laptop	Plus	120
+2011	TV	Plus	168
+2011	Dryer	Generic	100
+2011	Laptop	Plus	120
+2011	Phone	Generic	35
+2011	Guitar	Generic	60
+2011	Laptop	Plus	120
+2011	Dryer	Plus	120
+2011	Speakers	Plus	60
+2011	Laptop	Generic	100
+2011	Washer	Plus	120
+2011	Washer	Plus	120
+2011	Phone	Plus	42
+2011	Phone	Generic	35
+2011	Phone	Generic	35
+2011	Phone	Generic	35
+2011	Phone	Generic	35
+2011	Laptop	Plus	120
+2011	Tablet	Generic	25
+2011	MP3 Player	Generic	20
+2011	Phone	Plus	42
+2011	Dryer	Generic	100
+2010	Dryer	Generic	100
+2010	Laptop	Generic	100
+2010	TV	Plus	168
+2010	MP3 Player	Plus	24
+2010	Laptop	Generic	100
+2010	Speakers	Generic	50
+2010	E-Reader	Plus	24
+2010	Laptop	Generic	100
+2010	TV	Generic	140
+2010	TV	Plus	168
+2010	Laptop	Generic	100
+2010	Laptop	Generic	100
+2010	Laptop	Plus	120
+2010	Laptop	Generic	100
+2010	Laptop	Plus	120
+2010	Tablet	Generic	25
+2010	MP3 Player	Generic	20
+2010	MP3 Player	Generic	20
+2010	TV	Generic	140
+2010	E-Reader	Plus	24
+2010	TV	Generic	140
+2010	TV	Plus	168
+2010	TV	Plus	168
+2010	Camera	Generic	70
+2010	GPS	Plus	6
+2010	GPS	Plus	6
+2010	MP3 Player	Plus	24
+2010	Dryer	Plus	120
+2010	Phone	Plus	42
+2010	Washer	Generic	100
+2010	Refrigerator	Generic	200
+2010	Laptop	Plus	120
+2010	Laptop	Generic	100
+2010	Phone	Generic	35
+2010	Tablet	Plus	30
+2010	Washer	Generic	100
+2010	Dryer	Plus	120
+2010	Laptop	Plus	120
+2010	TV	Plus	168
+2010	E-Reader	Generic	20
+2010	E-Reader	Generic	20
+2010	Laptop	Generic	100
+2010	Phone	Plus	42
+2010	Laptop	Plus	120
+2010	TV	Generic	140
+2010	Phone	Plus	42
+2010	Guitar	Generic	60
+2010	Laptop	Generic	100
+2010	Speakers	Generic	50
+2010	MP3 Player	Generic	20
+2010	Phone	Generic	35
+2010	MP3 Player	Generic	20
+2010	Phone	Plus	42
+2010	Laptop	Generic	100
+2010	E-Reader	Plus	24
+2010	Speakers	Plus	60
+2010	Desktop CPU	Generic	80
+2010	Dryer	Generic	100
+2010	E-Reader	Generic	20
+2010	Refrigerator	Plus	240
+2010	Dryer	Generic	100
+2010	Phone	Generic	35
+2010	Dryer	Generic	100
+2010	TV	Plus	168
+2010	Laptop	Generic	100
+2010	Laptop	Plus	120
+2010	Camera	Plus	84
+2010	Desktop CPU	Plus	96
+2010	Phone	Plus	42
+2010	MP3 Player	Plus	24
+2010	MP3 Player	Plus	24
+2010	MP3 Player	Generic	20
+2010	Phone	Plus	42
+2010	TV	Generic	140
+2010	Laptop	Generic	100
+2010	TV	Plus	168
+2010	Refrigerator	Plus	240
+2010	Phone	Generic	35
+2010	Laptop	Plus	120
+2010	Laptop	Plus	120
+2010	TV	Generic	140
+2010	Speakers	Plus	60
+2010	Laptop	Plus	120
+2010	Dryer	Plus	120
+2010	TV	Plus	168
+2010	Tablet	Generic	25
+2010	TV	Generic	140
+2010	Speakers	Generic	50
+2010	Desktop CPU	Plus	96
+2010	Refrigerator	Generic	200
+2010	TV	Generic	140
+2010	TV	Plus	168
+2010	Washer	Plus	120
+2010	Laptop	Plus	120
+2010	Laptop	Plus	120
+2010	Speakers	Plus	60
+2010	Phone	Generic	35
+2010	Tablet	Generic	25
+2010	Washer	Plus	120
+2010	Guitar	Generic	60
+2010	Laptop	Generic	100
+2010	Tablet	Generic	25
+2010	Refrigerator	Generic	200
+2010	E-Reader	Plus	24
+2010	TV	Generic	140
+2010	Laptop	Generic	100
+2010	Dryer	Generic	100
+2010	Washer	Generic	100
+2010	MP3 Player	Plus	24
+2010	Laptop	Generic	100
+2010	TV	Generic	140
+2010	Phone	Generic	35
+2010	TV	Generic	140
+2010	MP3 Player	Generic	20
+2010	TV	Plus	168
+2010	E-Reader	Plus	24
+2010	TV	Generic	140
+2010	GPS	Plus	6
+2010	Laptop	Generic	100
+2010	Speakers	Plus	60
+2010	Laptop	Generic	100
+2010	Guitar	Generic	60
+2010	Laptop	Plus	120
+2010	TV	Generic	140
+2010	Dryer	Plus	120
+2010	E-Reader	Plus	24
+2010	E-Reader	Plus	24
+2010	TV	Generic	140
+2010	E-Reader	Plus	24
+2010	Laptop	Plus	120
+2010	Dryer	Generic	100
+2010	Laptop	Plus	120
+2010	Desktop CPU	Plus	96
+2010	MP3 Player	Plus	24
+2010	Laptop	Generic	100
+2010	E-Reader	Plus	24
+2010	Tablet	Generic	25
+2010	TV	Plus	168
+2010	TV	Generic	140
+2010	Tablet	Plus	30
+2010	E-Reader	Plus	24
+2010	MP3 Player	Generic	20
+2010	Phone	Generic	35
+2010	TV	Generic	140
+2010	Washer	Plus	120
+2010	TV	Generic	140
+2010	Camera	Generic	70
+2010	Laptop	Plus	120
+2010	E-Reader	Generic	20
+2010	TV	Plus	168
+2010	Laptop	Plus	120
+2010	Phone	Plus	42
+2010	Dryer	Plus	120
+2010	Laptop	Generic	100
+2010	TV	Plus	168
+2010	Tablet	Plus	30
+2010	Dryer	Plus	120
+2010	Laptop	Plus	120
+2010	Desktop CPU	Plus	96
+2010	Phone	Generic	35
+2010	TV	Generic	140
+2010	TV	Generic	140
+2010	Laptop	Plus	120
+2010	MP3 Player	Generic	20
+2010	Phone	Plus	42
+2010	TV	Plus	168
+2010	E-Reader	Generic	20
+2010	MP3 Player	Plus	24
+2010	TV	Plus	168
+2010	Washer	Generic	100
+2010	MP3 Player	Plus	24
+2010	Refrigerator	Generic	200
+2010	Camera	Plus	84
+2010	E-Reader	Generic	20
+2010	Laptop	Plus	120
+2010	E-Reader	Plus	24
+2010	MP3 Player	Plus	24
+2010	Desktop CPU	Generic	80
+2010	Phone	Plus	42
+2010	Laptop	Plus	120
+2010	TV	Generic	140
+2010	Laptop	Generic	100
+2010	Laptop	Generic	100
+2010	Tablet	Plus	30
+2010	Dryer	Plus	120
+2010	E-Reader	Generic	20
+2010	TV	Generic	140
+2010	Phone	Plus	42
+2010	Dryer	Plus	120
+2010	Laptop	Generic	100
+2010	Desktop CPU	Plus	96
+2010	Laptop	Generic	100
+2010	TV	Plus	168
+2010	Phone	Plus	42
+2010	MP3 Player	Generic	20
+2010	Refrigerator	Generic	200
+2010	Phone	Generic	35
+2010	Tablet	Generic	25
+2010	Phone	Generic	35
+2010	Laptop	Generic	100
+2010	Laptop	Generic	100
+2010	Washer	Generic	100
+2010	TV	Plus	168
+2010	MP3 Player	Plus	24
+2010	TV	Plus	168
+2010	MP3 Player	Generic	20
+2010	E-Reader	Plus	24
+2010	Tablet	Generic	25
+2010	Laptop	Generic	100
+2010	TV	Plus	168
+2010	Tablet	Plus	30
+2010	Laptop	Generic	100
+2010	TV	Plus	168
+2010	Laptop	Plus	120
+2010	E-Reader	Plus	24
+2010	Laptop	Generic	100
+2010	Laptop	Generic	100
+2010	E-Reader	Generic	20
+2010	Phone	Plus	42
+2010	Laptop	Generic	100
+2010	Laptop	Generic	100
+2010	Phone	Plus	42
+2010	TV	Plus	168
+2010	Laptop	Generic	100
+2010	MP3 Player	Generic	20
+2010	Laptop	Plus	120
+2010	Phone	Generic	35
+2010	Speakers	Generic	50
+2010	Laptop	Plus	120
+2010	E-Reader	Plus	24
+2010	Laptop	Generic	100
+2010	Refrigerator	Plus	240
+2010	Laptop	Generic	100
+2010	TV	Generic	140
+2010	TV	Plus	168
+2010	Tablet	Plus	30
+2010	Washer	Generic	100
+2010	Washer	Plus	120
+2010	Phone	Generic	35
+2010	Laptop	Plus	120
+2010	Tablet	Generic	25
+2010	Phone	Plus	42
+2010	TV	Plus	168
+2010	Washer	Plus	120
+2010	Laptop	Plus	120
+2010	Laptop	Generic	100
+2010	TV	Plus	168
+2010	Camera	Generic	70
+2010	Refrigerator	Plus	240
+2010	Laptop	Generic	100
+2010	Tablet	Plus	30
+2010	Phone	Plus	42
+2010	Laptop	Plus	120
+2010	Speakers	Plus	60
+2010	Laptop	Generic	100
+2010	MP3 Player	Generic	20
+2010	Laptop	Plus	120
+2010	TV	Plus	168
+2010	MP3 Player	Plus	24
+2010	Phone	Generic	35
+2010	Laptop	Generic	100
+2010	MP3 Player	Generic	20
+2010	MP3 Player	Generic	20
+2010	Laptop	Generic	100
+2010	MP3 Player	Generic	20
+2010	Phone	Generic	35
+2010	MP3 Player	Plus	24
+2010	TV	Plus	168
+2010	Tablet	Plus	30
+2010	TV	Generic	140
+2010	MP3 Player	Plus	24
+2010	Camera	Generic	70
+2010	Washer	Plus	120
+2010	Laptop	Generic	100
+2010	Guitar	Plus	72
+2010	TV	Generic	140
+2010	Desktop CPU	Generic	80
+2010	Dryer	Generic	100
+2010	Dryer	Plus	120
+2010	Guitar	Plus	72
+2010	TV	Plus	168
+2010	TV	Generic	140
+2010	Phone	Plus	42
+2010	Phone	Plus	42
+2010	Laptop	Plus	120
+2010	MP3 Player	Generic	20
+2010	Dryer	Generic	100
+2010	E-Reader	Plus	24
+2010	Phone	Plus	42
+2010	Phone	Plus	42
+2010	Refrigerator	Generic	200
+2010	MP3 Player	Plus	24
+2010	Camera	Plus	84
+2010	Refrigerator	Generic	200
+2010	Speakers	Plus	60
+2010	Phone	Generic	35
+2010	Tablet	Generic	25
+2010	TV	Generic	140
+2010	Dryer	Generic	100
+2010	Speakers	Plus	60
+2010	TV	Generic	140
+2010	Laptop	Plus	120
+2010	Tablet	Generic	25
+2010	MP3 Player	Plus	24
+2010	Phone	Generic	35
+2010	Refrigerator	Plus	240
+2010	Phone	Generic	35
+2010	Laptop	Generic	100
+2010	Tablet	Generic	25
+2010	TV	Generic	140
+2010	MP3 Player	Generic	20
+2010	MP3 Player	Plus	24
+2010	E-Reader	Generic	20
+2010	TV	Generic	140
+2010	Laptop	Generic	100
+2010	Refrigerator	Generic	200
+2010	TV	Plus	168
+2010	Phone	Generic	35
+2010	Phone	Generic	35
+2010	Washer	Generic	100
+2010	E-Reader	Plus	24
+2010	Desktop CPU	Plus	96
+2010	Laptop	Plus	120
+2010	MP3 Player	Generic	20
+2010	TV	Plus	168
+2010	Phone	Plus	42
+2010	Phone	Plus	42
+2010	Laptop	Plus	120
+2010	Laptop	Generic	100
+2010	Laptop	Plus	120
+2010	Washer	Plus	120
+2010	Washer	Generic	100
+2010	Phone	Plus	42
+2010	Laptop	Generic	100
+2010	TV	Generic	140
+2010	Laptop	Plus	120
+2010	Phone	Plus	42
+2010	Laptop	Generic	100
+2010	TV	Plus	168
+2010	TV	Plus	168
+2010	TV	Generic	140
+2010	Phone	Plus	42
+2010	MP3 Player	Generic	20
+2010	Phone	Generic	35
+2010	TV	Plus	168
+2010	E-Reader	Plus	24
+2010	GPS	Plus	6
+2010	Laptop	Plus	120
+2010	Washer	Generic	100
+2010	Laptop	Generic	100
+2010	E-Reader	Generic	20
+2010	Laptop	Generic	100
+2010	Dryer	Plus	120
+2010	Refrigerator	Plus	240
+2010	GPS	Plus	6
+2010	Washer	Plus	120
+2010	Laptop	Generic	100
+2010	Desktop CPU	Plus	96
+2010	Phone	Plus	42
+2010	Laptop	Plus	120
+2010	Laptop	Plus	120
+2010	MP3 Player	Plus	24
+2010	TV	Plus	168
+2010	Laptop	Plus	120
+2010	TV	Generic	140
+2010	TV	Plus	168
+2010	GPS	Generic	5
+2010	Tablet	Generic	25
+2010	MP3 Player	Plus	24
+2010	Guitar	Plus	72
+2010	TV	Generic	140
+2010	Desktop CPU	Generic	80
+2010	TV	Generic	140
+2010	TV	Generic	140
+2010	Refrigerator	Plus	240
+2010	Tablet	Plus	30
+2010	Tablet	Plus	30
+2010	Guitar	Plus	72
+2010	Phone	Plus	42
+2010	Refrigerator	Generic	200
+2010	Phone	Plus	42
+2010	Speakers	Plus	60
+2010	Laptop	Plus	120
+2010	Dryer	Plus	120
+2010	Laptop	Generic	100
+2010	E-Reader	Plus	24
+2010	Phone	Plus	42
+2010	Tablet	Plus	30
+2010	TV	Generic	140
+2010	MP3 Player	Generic	20
+2010	Dryer	Plus	120
+2010	MP3 Player	Plus	24
+2010	Washer	Plus	120
+2010	E-Reader	Generic	20
+2010	Phone	Plus	42
+2010	Desktop CPU	Plus	96
+2010	Desktop CPU	Generic	80
+2010	Laptop	Generic	100
+2010	Washer	Plus	120
+2010	Phone	Plus	42
+2010	Laptop	Plus	120
+2010	Laptop	Plus	120
+2010	Speakers	Generic	50
+2010	Phone	Generic	35
+2010	Tablet	Generic	25
+2010	Laptop	Plus	120
+2010	Desktop CPU	Plus	96
+2010	Laptop	Plus	120
+2010	E-Reader	Generic	20
+2010	Dryer	Generic	100
+2010	Washer	Plus	120
+2010	MP3 Player	Generic	20
+2010	TV	Plus	168
+2010	Dryer	Generic	100
+2010	Camera	Plus	84
+2010	TV	Generic	140
+2010	Phone	Plus	42
+2010	Phone	Generic	35
+2010	Speakers	Plus	60
+2010	MP3 Player	Plus	24
+2010	Speakers	Generic	50
+2010	TV	Generic	140
+2010	Phone	Generic	35
+2010	E-Reader	Generic	20
+2010	E-Reader	Generic	20
+2010	TV	Generic	140
+2010	TV	Plus	168
+2010	Laptop	Generic	100
+2010	Phone	Generic	35
+2010	MP3 Player	Generic	20
+2010	Washer	Generic	100
+2010	Desktop CPU	Plus	96
+2010	Laptop	Generic	100
+2010	Refrigerator	Plus	240
+2010	Speakers	Generic	50
+2010	TV	Generic	140
+2010	MP3 Player	Generic	20
+2010	MP3 Player	Generic	20
+2010	Speakers	Plus	60
+2010	GPS	Plus	6
+2010	E-Reader	Plus	24
+2010	Tablet	Plus	30
+2010	Laptop	Plus	120
+2010	TV	Plus	168
+2010	TV	Plus	168
+2010	Washer	Generic	100
+2010	TV	Plus	168
+2010	Washer	Generic	100
+2010	TV	Plus	168
+2010	Phone	Generic	35
+2010	Laptop	Plus	120
+2010	Laptop	Generic	100
+2010	TV	Plus	168
+2010	Phone	Plus	42
+2010	Phone	Generic	35
+2010	E-Reader	Generic	20
+2010	Guitar	Generic	60
+2010	GPS	Plus	6
+2010	TV	Generic	140
+2010	Washer	Generic	100
+2010	Laptop	Generic	100
+2010	Washer	Generic	100
+2010	Washer	Generic	100
+2010	Refrigerator	Plus	240
+2010	E-Reader	Plus	24
+2010	TV	Generic	140
+2010	Tablet	Plus	30
+2010	TV	Plus	168
+2010	Desktop CPU	Plus	96
+2010	Laptop	Plus	120
+2010	Laptop	Generic	100
+2010	Laptop	Plus	120
+2010	TV	Generic	140
+2010	Tablet	Generic	25
+2010	TV	Plus	168
+2010	Dryer	Generic	100
+2010	MP3 Player	Plus	24
+2010	Washer	Plus	120
+2010	Tablet	Plus	30
+2010	MP3 Player	Generic	20
+2010	Desktop CPU	Plus	96
+2010	Dryer	Generic	100
+2010	Phone	Generic	35
+2010	TV	Plus	168
+2010	Speakers	Generic	50
+2010	Phone	Plus	42
+2010	MP3 Player	Generic	20
+2010	Laptop	Generic	100
+2010	MP3 Player	Generic	20
+2010	Dryer	Generic	100
+2010	Laptop	Plus	120
+2010	MP3 Player	Generic	20
+2010	TV	Generic	140
+2010	Laptop	Generic	100
+2010	Washer	Generic	100
+2010	MP3 Player	Plus	24
+2010	TV	Generic	140
+2010	E-Reader	Plus	24
+2010	Refrigerator	Generic	200
+2010	Laptop	Plus	120
+2010	Dryer	Generic	100
+2010	Laptop	Plus	120
+2010	TV	Generic	140
+2010	Washer	Plus	120
+2010	Laptop	Plus	120
+2010	Phone	Plus	42
+2010	Desktop CPU	Plus	96
+2010	Dryer	Plus	120
+2010	Dryer	Generic	100
+2010	TV	Plus	168
+2010	GPS	Plus	6
+2010	Phone	Plus	42
+2010	Phone	Plus	42
+2010	TV	Plus	168
+2010	E-Reader	Plus	24
+2010	Speakers	Plus	60
+2010	Desktop CPU	Plus	96
+2010	Laptop	Plus	120
+2010	Guitar	Generic	60
+2010	Laptop	Generic	100
+2010	Phone	Generic	35
+2010	Phone	Plus	42
+2010	Tablet	Plus	30
+2010	Guitar	Generic	60
+2010	TV	Plus	168
+2010	Camera	Generic	70
+2010	Phone	Plus	42
+2010	Phone	Plus	42
+2010	Camera	Plus	84
+2010	TV	Plus	168
+2010	TV	Generic	140
+2010	Desktop CPU	Plus	96
+2010	E-Reader	Generic	20
+2010	E-Reader	Plus	24
+2010	Tablet	Generic	25
+2010	Phone	Plus	42
+2010	Dryer	Generic	100
+2010	Washer	Generic	100
+2010	Phone	Generic	35
+2010	TV	Plus	168
+2010	Laptop	Plus	120
+2010	E-Reader	Plus	24
+2010	Refrigerator	Plus	240
+2010	TV	Generic	140
+2010	TV	Plus	168
+2010	TV	Plus	168
+2010	Speakers	Plus	60
+2010	GPS	Plus	6
+2010	TV	Generic	140
+2010	Phone	Generic	35
+2009	Desktop CPU	Plus	96
+2009	MP3 Player	Generic	20
+2009	Desktop CPU	Generic	80
+2009	Desktop CPU	Generic	80
+2009	Desktop CPU	Plus	96
+2009	Laptop	Plus	120
+2009	TV	Generic	140
+2009	Washer	Plus	120
+2009	Desktop CPU	Plus	96
+2009	E-Reader	Plus	24
+2009	Desktop CPU	Plus	96
+2009	Laptop	Plus	120
+2009	Phone	Plus	42
+2009	Phone	Plus	42
+2009	GPS	Generic	5
+2009	Refrigerator	Plus	240
+2009	Tablet	Generic	25
+2009	Desktop CPU	Generic	80
+2009	Camera	Plus	84
+2009	Phone	Plus	42
+2009	Phone	Generic	35
+2009	Desktop CPU	Plus	96
+2009	MP3 Player	Generic	20
+2009	Dryer	Generic	100
+2009	Phone	Generic	35
+2009	E-Reader	Plus	24
+2009	Tablet	Generic	25
+2009	Phone	Plus	42
+2009	Guitar	Generic	60
+2009	Phone	Generic	35
+2009	Phone	Generic	35
+2009	Desktop CPU	Plus	96
+2009	GPS	Generic	5
+2009	MP3 Player	Generic	20
+2009	Speakers	Plus	60
+2009	Phone	Plus	42
+2009	Phone	Plus	42
+2009	Desktop CPU	Generic	80
+2009	Desktop CPU	Generic	80
+2009	Guitar	Generic	60
+2009	Desktop CPU	Generic	80
+2009	Guitar	Plus	72
+2009	Washer	Plus	120
+2009	Desktop CPU	Plus	96
+2009	Tablet	Generic	25
+2009	GPS	Plus	6
+2009	Phone	Plus	42
+2009	Desktop CPU	Generic	80
+2009	Dryer	Generic	100
+2009	GPS	Generic	5
+2009	GPS	Plus	6
+2009	Refrigerator	Plus	240
+2009	MP3 Player	Generic	20
+2009	Desktop CPU	Generic	80
+2009	Laptop	Plus	120
+2009	Desktop CPU	Generic	80
+2009	Desktop CPU	Generic	80
+2009	MP3 Player	Plus	24
+2009	GPS	Generic	5
+2009	Washer	Plus	120
+2009	Phone	Plus	42
+2009	Desktop CPU	Generic	80
+2009	Phone	Generic	35
+2009	Speakers	Generic	50
+2009	Desktop CPU	Plus	96
+2009	Desktop CPU	Generic	80
+2009	Speakers	Generic	50
+2009	Desktop CPU	Generic	80
+2009	Desktop CPU	Plus	96
+2009	E-Reader	Generic	20
+2009	GPS	Generic	5
+2009	Laptop	Generic	100
+2009	Speakers	Plus	60
+2009	Phone	Generic	35
+2009	Refrigerator	Generic	200
+2009	Phone	Plus	42
+2009	E-Reader	Generic	20
+2009	Camera	Plus	84
+2009	GPS	Plus	6
+2009	GPS	Generic	5
+2009	Dryer	Plus	120
+2009	Refrigerator	Plus	240
+2009	Speakers	Generic	50
+2009	TV	Generic	140
+2009	MP3 Player	Generic	20
+2009	Speakers	Generic	50
+2009	GPS	Generic	5
+2009	Dryer	Plus	120
+2009	Speakers	Generic	50
+2009	Desktop CPU	Plus	96
+2009	Laptop	Generic	100
+2009	Phone	Generic	35
+2009	Phone	Plus	42
+2009	Tablet	Generic	25
+2009	Desktop CPU	Plus	96
+2009	Washer	Plus	120
+2009	Tablet	Generic	25
+2009	Desktop CPU	Generic	80
+2009	Desktop CPU	Generic	80
+2009	GPS	Generic	5
+2009	Laptop	Generic	100
+2009	GPS	Generic	5
+2009	Desktop CPU	Plus	96
+2009	Refrigerator	Generic	200
+2009	Desktop CPU	Plus	96
+2009	MP3 Player	Generic	20
+2009	Laptop	Generic	100
+2009	GPS	Generic	5
+2009	Laptop	Generic	100
+2009	Refrigerator	Generic	200
+2009	Desktop CPU	Plus	96
+2009	Tablet	Generic	25
+2009	Desktop CPU	Plus	96
+2009	Tablet	Plus	30
+2009	Desktop CPU	Generic	80
+2009	Phone	Generic	35
+2009	Phone	Plus	42
+2009	Phone	Generic	35
+2009	E-Reader	Plus	24
+2009	MP3 Player	Plus	24
+2009	Desktop CPU	Plus	96
+2009	Phone	Plus	42
+2009	Phone	Plus	42
+2009	E-Reader	Generic	20
+2009	Desktop CPU	Generic	80
+2009	Phone	Generic	35
+2009	Desktop CPU	Plus	96
+2009	Guitar	Plus	72
+2009	Laptop	Generic	100
+2009	MP3 Player	Plus	24
+2009	Desktop CPU	Plus	96
+2009	Desktop CPU	Plus	96
+2009	Desktop CPU	Plus	96
+2009	Desktop CPU	Plus	96
+2009	MP3 Player	Plus	24
+2009	Refrigerator	Plus	240
+2009	Refrigerator	Generic	200
+2009	Desktop CPU	Plus	96
+2009	GPS	Generic	5
+2009	MP3 Player	Plus	24
+2009	Dryer	Generic	100
+2009	MP3 Player	Generic	20
+2009	Speakers	Plus	60
+2009	Speakers	Plus	60
+2009	Tablet	Generic	25
+2009	Speakers	Plus	60
+2009	Desktop CPU	Generic	80
+2009	E-Reader	Plus	24
+2009	Phone	Plus	42
+2009	GPS	Generic	5
+2009	E-Reader	Generic	20
+2009	Phone	Plus	42
+2009	Desktop CPU	Generic	80
+2009	Phone	Generic	35
+2009	Desktop CPU	Plus	96
+2009	MP3 Player	Generic	20
+2009	Laptop	Plus	120
+2009	Desktop CPU	Plus	96
+2009	Guitar	Generic	60
+2009	E-Reader	Generic	20
+2009	Laptop	Plus	120
+2009	Desktop CPU	Plus	96
+2009	GPS	Generic	5
+2009	Tablet	Plus	30
+2009	TV	Generic	140
+2009	Washer	Generic	100
+2009	MP3 Player	Plus	24
+2009	Guitar	Plus	72
+2009	E-Reader	Plus	24
+2009	Guitar	Generic	60
+2009	Desktop CPU	Plus	96
+2009	Phone	Generic	35
+2009	Desktop CPU	Generic	80
+2009	MP3 Player	Generic	20
+2009	Washer	Generic	100
+2009	Laptop	Generic	100
+2009	GPS	Plus	6
+2009	Phone	Plus	42
+2009	Phone	Plus	42
+2009	Phone	Generic	35
+2009	Phone	Plus	42
+2009	Refrigerator	Generic	200
+2009	Phone	Generic	35
+2009	Refrigerator	Plus	240
+2009	Phone	Plus	42
+2009	Refrigerator	Generic	200
+2009	Guitar	Generic	60
+2009	Dryer	Plus	120
+2009	MP3 Player	Generic	20
+2009	Desktop CPU	Plus	96
+2009	Phone	Generic	35
+2009	Phone	Generic	35
+2009	E-Reader	Generic	20
+2009	Refrigerator	Plus	240
+2009	MP3 Player	Plus	24
+2009	Laptop	Generic	100
+2009	Phone	Generic	35
+2009	Phone	Plus	42
+2009	MP3 Player	Generic	20
+2009	GPS	Plus	6
+2009	Guitar	Plus	72
+2009	Phone	Plus	42
+2009	MP3 Player	Plus	24
+2009	Desktop CPU	Plus	96
+2009	MP3 Player	Generic	20
+2009	MP3 Player	Generic	20
+2009	Laptop	Plus	120
+2009	Phone	Generic	35
+2009	Dryer	Plus	120
+2009	Guitar	Plus	72
+2009	MP3 Player	Plus	24
+2009	Desktop CPU	Generic	80
+2009	Guitar	Generic	60
+2009	MP3 Player	Generic	20
+2009	TV	Plus	168
+2009	Desktop CPU	Plus	96
+2009	Camera	Plus	84
+2009	Speakers	Plus	60
+2009	Desktop CPU	Plus	96
+2009	GPS	Plus	6
+2009	MP3 Player	Plus	24
+2009	E-Reader	Plus	24
+2009	E-Reader	Plus	24
+2009	Phone	Plus	42
+2009	Phone	Generic	35
+2009	Phone	Generic	35
+2009	Desktop CPU	Generic	80
+2009	Washer	Plus	120
+2009	E-Reader	Generic	20
+2009	Guitar	Generic	60
+2009	Phone	Generic	35
+2009	E-Reader	Plus	24
+2009	TV	Generic	140
+2009	Tablet	Generic	25
+2009	Tablet	Plus	30
+2009	Desktop CPU	Generic	80
+2009	Dryer	Generic	100
+2009	Desktop CPU	Generic	80
+2009	Phone	Plus	42
+2009	Desktop CPU	Plus	96
+2009	Desktop CPU	Plus	96
+2009	GPS	Plus	6
+2009	Phone	Plus	42
+2009	Laptop	Plus	120
+2009	Washer	Plus	120
+2009	TV	Plus	168
+2009	Guitar	Plus	72
+2009	Laptop	Generic	100
+2009	Desktop CPU	Generic	80
+2009	Desktop CPU	Generic	80
+2009	Guitar	Plus	72
+2009	Tablet	Generic	25
+2009	Laptop	Generic	100
+2009	Washer	Generic	100
+2009	GPS	Generic	5
+2009	Tablet	Generic	25
+2009	Desktop CPU	Generic	80
+2009	Phone	Generic	35
+2009	Washer	Generic	100
+2009	Washer	Plus	120
+2009	Desktop CPU	Plus	96
+2009	Laptop	Generic	100
+2009	Phone	Plus	42
+2009	TV	Plus	168
+2009	Tablet	Plus	30
+2009	TV	Generic	140
+2009	Tablet	Plus	30
+2009	Laptop	Plus	120
+2009	Laptop	Generic	100
+2009	MP3 Player	Generic	20
+2009	Camera	Generic	70
+2009	TV	Plus	168
+2009	Laptop	Generic	100
+2009	MP3 Player	Generic	20
+2009	Laptop	Generic	100
+2009	Camera	Plus	84
+2009	Tablet	Generic	25
+2009	Laptop	Plus	120
+2009	E-Reader	Generic	20
+2009	Phone	Plus	42
+2009	Desktop CPU	Plus	96
+2009	Laptop	Generic	100
+2009	TV	Plus	168
+2009	Dryer	Generic	100
+2009	TV	Plus	168
+2009	Phone	Plus	42
+2009	Phone	Plus	42
+2009	GPS	Generic	5
+2009	Guitar	Plus	72
+2009	Desktop CPU	Generic	80
+2009	Camera	Generic	70
+2009	Tablet	Plus	30
+2009	Dryer	Generic	100
+2009	Desktop CPU	Generic	80
+2009	Laptop	Plus	120
+2009	MP3 Player	Plus	24
+2009	Dryer	Generic	100
+2009	TV	Generic	140
+2009	Dryer	Plus	120
+2009	Speakers	Plus	60
+2009	Dryer	Generic	100
+2009	Phone	Generic	35
+2009	Dryer	Generic	100
+2009	Phone	Plus	42
+2009	Desktop CPU	Generic	80
+2009	Phone	Plus	42
+2009	Washer	Plus	120
+2009	Desktop CPU	Plus	96
+2009	Phone	Plus	42
+2009	GPS	Generic	5
+2009	TV	Generic	140
+2009	Refrigerator	Generic	200
+2009	Desktop CPU	Generic	80
+2009	MP3 Player	Plus	24
+2009	Desktop CPU	Plus	96
+2009	Phone	Plus	42
+2009	Desktop CPU	Generic	80
+2009	Laptop	Generic	100
+2009	Desktop CPU	Generic	80
+2009	Tablet	Generic	25
+2009	E-Reader	Plus	24
+2009	MP3 Player	Generic	20
+2009	Desktop CPU	Generic	80
+2009	Desktop CPU	Generic	80
+2009	Laptop	Generic	100
+2009	Desktop CPU	Generic	80
+2009	Laptop	Generic	100
+2009	GPS	Generic	5
+2009	E-Reader	Generic	20
+2009	E-Reader	Generic	20
+2009	Phone	Generic	35
+2009	Tablet	Generic	25
+2009	Phone	Generic	35
+2009	GPS	Generic	5
+2009	Phone	Plus	42
+2009	Phone	Generic	35
+2009	Desktop CPU	Plus	96
+2009	Laptop	Generic	100
+2009	Washer	Generic	100
+2009	Desktop CPU	Generic	80
+2009	MP3 Player	Plus	24
+2009	Desktop CPU	Plus	96
+2009	Washer	Generic	100
+2009	Guitar	Plus	72
+2009	Phone	Plus	42
+2009	E-Reader	Generic	20
+2009	Desktop CPU	Generic	80
+2009	Washer	Generic	100
+2009	Refrigerator	Generic	200
+2009	Refrigerator	Plus	240
+2009	Desktop CPU	Plus	96
+2009	Laptop	Generic	100
+2009	Speakers	Generic	50
+2009	Washer	Plus	120
+2009	Desktop CPU	Plus	96
+2009	Phone	Generic	35
+2009	Dryer	Plus	120
+2009	MP3 Player	Plus	24
+2009	E-Reader	Plus	24
+2009	E-Reader	Plus	24
+2009	Washer	Plus	120
+2009	Tablet	Generic	25
+2009	Guitar	Generic	60
+2009	Phone	Plus	42
+2009	Phone	Generic	35
+2009	Camera	Plus	84
+2009	Desktop CPU	Plus	96
+2009	Phone	Generic	35
+2009	Laptop	Plus	120
+2009	Desktop CPU	Plus	96
+2009	Speakers	Plus	60
+2009	Phone	Generic	35
+2009	Desktop CPU	Generic	80
+2009	Phone	Plus	42
+2009	TV	Generic	140
+2009	Tablet	Generic	25
+2009	E-Reader	Generic	20
+2009	Guitar	Plus	72
+2009	Desktop CPU	Plus	96
+2009	Phone	Generic	35
+2009	Tablet	Plus	30
+2009	E-Reader	Plus	24
+2009	Desktop CPU	Generic	80
+2009	Tablet	Generic	25
+2009	Speakers	Plus	60
+2009	Laptop	Plus	120
+2009	Camera	Plus	84
+2009	Phone	Plus	42
+2009	Desktop CPU	Plus	96
+2009	Refrigerator	Plus	240
+2009	Dryer	Generic	100
+2009	Phone	Plus	42
+2009	Tablet	Generic	25
+2009	TV	Plus	168
+2009	Desktop CPU	Plus	96
+2009	Tablet	Generic	25
+2009	Desktop CPU	Plus	96
+2009	Desktop CPU	Generic	80
+2009	E-Reader	Generic	20
+2009	MP3 Player	Plus	24
+2009	Dryer	Plus	120
+2009	Desktop CPU	Plus	96
+2009	TV	Plus	168
+2009	TV	Plus	168
+2009	Speakers	Generic	50
+2009	Camera	Generic	70
+2009	MP3 Player	Plus	24
+2009	MP3 Player	Generic	20
+2009	Desktop CPU	Plus	96
+2009	E-Reader	Generic	20
+2009	E-Reader	Generic	20
+2009	Washer	Generic	100
+2009	Desktop CPU	Generic	80
+2009	Tablet	Plus	30
+2009	Refrigerator	Plus	240
+2009	Phone	Plus	42
+2009	Laptop	Plus	120
+2009	Laptop	Generic	100
+2009	Phone	Generic	35
+2009	Phone	Plus	42
+2009	Laptop	Plus	120
+2009	MP3 Player	Generic	20
+2009	MP3 Player	Plus	24
+2009	Guitar	Plus	72
+2009	Laptop	Plus	120
+2009	Desktop CPU	Plus	96
+2009	Refrigerator	Generic	200
+2009	Guitar	Plus	72
+2009	Desktop CPU	Generic	80
+2009	Dryer	Generic	100
+2009	Washer	Plus	120
+2009	GPS	Plus	6
+2009	GPS	Generic	5
+2009	GPS	Plus	6
+2009	Refrigerator	Generic	200
+2009	Phone	Generic	35
+2009	Speakers	Generic	50
+2009	E-Reader	Generic	20
+2009	Phone	Generic	35
+2009	Desktop CPU	Generic	80
+2009	MP3 Player	Generic	20
+2009	Tablet	Generic	25
+2009	Desktop CPU	Generic	80
+2009	Tablet	Plus	30
+2009	E-Reader	Plus	24
+2009	Desktop CPU	Generic	80
+2009	MP3 Player	Generic	20
+2009	Tablet	Plus	30
+2009	Dryer	Generic	100
+2009	E-Reader	Plus	24
+2009	Desktop CPU	Generic	80
+2009	Desktop CPU	Plus	96
+2009	Desktop CPU	Plus	96
+2009	Phone	Generic	35
+2009	GPS	Plus	6
+2009	Washer	Plus	120
+2009	Phone	Plus	42
+2009	Camera	Plus	84
+2009	Phone	Plus	42
+2009	MP3 Player	Generic	20
+2009	TV	Plus	168
+2009	Phone	Plus	42
+2009	Speakers	Plus	60
+2009	MP3 Player	Plus	24
+2009	TV	Plus	168
+2009	Refrigerator	Plus	240
+2009	GPS	Generic	5
+2009	Dryer	Generic	100
+2009	Desktop CPU	Plus	96
+2009	TV	Generic	140
+2009	Phone	Generic	35
+2009	Speakers	Plus	60
+2009	Desktop CPU	Generic	80
+2009	Tablet	Generic	25
+2009	Laptop	Plus	120
+2009	Phone	Generic	35
+2009	Speakers	Plus	60
+2009	Laptop	Generic	100
+2009	Laptop	Plus	120
+2009	Laptop	Generic	100
+2008	Desktop CPU	Plus	96
+2008	TV	Plus	168
+2008	GPS	Plus	6
+2008	Desktop CPU	Plus	96
+2008	GPS	Generic	5
+2008	MP3 Player	Plus	24
+2008	Desktop CPU	Generic	80
+2008	Camera	Plus	84
+2008	GPS	Plus	6
+2008	Speakers	Plus	60
+2008	GPS	Plus	6
+2008	Phone	Plus	42
+2008	Desktop CPU	Generic	80
+2008	GPS	Generic	5
+2008	Desktop CPU	Generic	80
+2008	TV	Generic	140
+2008	Camera	Generic	70
+2008	TV	Plus	168
+2008	GPS	Generic	5
+2008	Washer	Plus	120
+2008	TV	Plus	168
+2008	TV	Generic	140
+2008	E-Reader	Plus	24
+2008	Dryer	Generic	100
+2008	Refrigerator	Plus	240
+2008	Speakers	Plus	60
+2008	GPS	Generic	5
+2008	Washer	Generic	100
+2008	GPS	Generic	5
+2008	MP3 Player	Generic	20
+2008	Laptop	Generic	100
+2008	GPS	Plus	6
+2008	Camera	Generic	70
+2008	Dryer	Plus	120
+2008	GPS	Plus	6
+2008	Camera	Plus	84
+2008	MP3 Player	Plus	24
+2008	Camera	Plus	84
+2008	Refrigerator	Generic	200
+2008	MP3 Player	Generic	20
+2008	Desktop CPU	Generic	80
+2008	Dryer	Plus	120
+2008	Camera	Plus	84
+2008	Desktop CPU	Generic	80
+2008	Desktop CPU	Generic	80
+2008	Camera	Generic	70
+2008	TV	Plus	168
+2008	Desktop CPU	Plus	96
+2008	Laptop	Plus	120
+2008	Phone	Generic	35
+2008	Laptop	Generic	100
+2008	GPS	Plus	6
+2008	TV	Generic	140
+2008	GPS	Generic	5
+2008	Laptop	Plus	120
+2008	Guitar	Plus	72
+2008	Laptop	Generic	100
+2008	Desktop CPU	Generic	80
+2008	TV	Generic	140
+2008	Desktop CPU	Generic	80
+2008	Dryer	Plus	120
+2008	Desktop CPU	Generic	80
+2008	TV	Plus	168
+2008	Laptop	Generic	100
+2008	Camera	Plus	84
+2008	Desktop CPU	Plus	96
+2008	Phone	Plus	42
+2008	TV	Plus	168
+2008	Camera	Plus	84
+2008	MP3 Player	Generic	20
+2008	Desktop CPU	Generic	80
+2008	GPS	Plus	6
+2008	TV	Generic	140
+2008	TV	Plus	168
+2008	Desktop CPU	Plus	96
+2008	Camera	Plus	84
+2008	Camera	Generic	70
+2008	Tablet	Plus	30
+2008	TV	Generic	140
+2008	Laptop	Generic	100
+2008	Camera	Plus	84
+2008	Laptop	Plus	120
+2008	Camera	Generic	70
+2008	Laptop	Generic	100
+2008	Phone	Plus	42
+2008	Laptop	Plus	120
+2008	Laptop	Plus	120
+2008	MP3 Player	Generic	20
+2008	Phone	Generic	35
+2008	MP3 Player	Plus	24
+2008	Desktop CPU	Plus	96
+2008	Laptop	Plus	120
+2008	TV	Generic	140
+2008	GPS	Plus	6
+2008	Dryer	Generic	100
+2008	Refrigerator	Generic	200
+2008	MP3 Player	Plus	24
+2008	Desktop CPU	Generic	80
+2008	GPS	Plus	6
+2008	MP3 Player	Plus	24
+2008	GPS	Generic	5
+2008	MP3 Player	Plus	24
+2008	TV	Plus	168
+2008	Desktop CPU	Plus	96
+2008	TV	Generic	140
+2008	Refrigerator	Plus	240
+2008	TV	Plus	168
+2008	Laptop	Generic	100
+2008	Camera	Plus	84
+2008	Camera	Generic	70
+2008	Camera	Generic	70
+2008	Laptop	Generic	100
+2008	GPS	Generic	5
+2008	Desktop CPU	Generic	80
+2008	GPS	Plus	6
+2008	Desktop CPU	Generic	80
+2008	Desktop CPU	Generic	80
+2008	Desktop CPU	Plus	96
+2008	Desktop CPU	Generic	80
+2008	Desktop CPU	Plus	96
+2008	TV	Plus	168
+2008	GPS	Generic	5
+2008	Camera	Plus	84
+2008	TV	Plus	168
+2008	TV	Generic	140
+2008	Camera	Generic	70
+2008	Guitar	Plus	72
+2008	TV	Plus	168
+2008	TV	Plus	168
+2008	Laptop	Plus	120
+2008	Camera	Plus	84
+2008	GPS	Plus	6
+2008	Desktop CPU	Generic	80
+2008	Laptop	Plus	120
+2008	Guitar	Plus	72
+2008	Dryer	Plus	120
+2008	Desktop CPU	Generic	80
+2008	Desktop CPU	Generic	80
+2008	Phone	Plus	42
+2008	Laptop	Plus	120
+2008	MP3 Player	Generic	20
+2008	Laptop	Generic	100
+2008	Laptop	Plus	120
+2008	Desktop CPU	Plus	96
+2008	Laptop	Generic	100
+2008	GPS	Generic	5
+2008	Laptop	Generic	100
+2008	Speakers	Generic	50
+2008	Speakers	Generic	50
+2008	Desktop CPU	Plus	96
+2008	Washer	Generic	100
+2008	Laptop	Generic	100
+2008	Laptop	Generic	100
+2008	Tablet	Generic	25
+2008	TV	Plus	168
+2008	Dryer	Generic	100
+2008	Camera	Plus	84
+2008	MP3 Player	Generic	20
+2008	Dryer	Generic	100
+2008	Washer	Generic	100
+2008	GPS	Plus	6
+2008	Camera	Plus	84
+2008	Camera	Generic	70
+2008	E-Reader	Plus	24
+2008	Desktop CPU	Generic	80
+2008	MP3 Player	Generic	20
+2008	Washer	Plus	120
+2008	Dryer	Plus	120
+2008	Speakers	Plus	60
+2008	Laptop	Plus	120
+2008	Laptop	Plus	120
+2008	Speakers	Plus	60
+2008	Camera	Plus	84
+2008	GPS	Plus	6
+2008	Camera	Generic	70
+2008	Laptop	Plus	120
+2008	TV	Plus	168
+2008	Camera	Plus	84
+2008	MP3 Player	Plus	24
+2008	Dryer	Generic	100
+2008	Desktop CPU	Plus	96
+2008	TV	Generic	140
+2008	TV	Generic	140
+2008	Camera	Plus	84
+2008	Laptop	Plus	120
+2008	TV	Plus	168
+2008	Desktop CPU	Generic	80
+2008	Speakers	Generic	50
+2008	Guitar	Generic	60
+2008	Camera	Plus	84
+2008	Desktop CPU	Generic	80
+2008	Camera	Generic	70
+2008	Camera	Plus	84
+2008	Camera	Generic	70
+2008	Camera	Plus	84
+2008	GPS	Generic	5
+2008	Speakers	Generic	50
+2008	Speakers	Generic	50
+2008	Desktop CPU	Plus	96
+2008	TV	Plus	168
+2008	TV	Plus	168
+2008	TV	Plus	168
+2008	Speakers	Plus	60
+2008	Speakers	Plus	60
+2008	TV	Generic	140
+2008	Desktop CPU	Plus	96
+2008	Refrigerator	Generic	200
+2008	E-Reader	Generic	20
+2008	MP3 Player	Generic	20
+2008	Camera	Generic	70
+2008	Desktop CPU	Generic	80
+2008	TV	Generic	140
+2008	Laptop	Generic	100
+2008	MP3 Player	Generic	20
+2008	TV	Plus	168
+2008	Camera	Plus	84
+2008	Phone	Generic	35
+2008	Camera	Generic	70
+2008	Laptop	Generic	100
+2008	TV	Plus	168
+2008	TV	Plus	168
+2008	Camera	Plus	84
+2008	TV	Plus	168
+2008	Laptop	Generic	100
+2008	Desktop CPU	Plus	96
+2008	Washer	Plus	120
+2008	GPS	Generic	5
+2008	TV	Plus	168
+2008	MP3 Player	Plus	24
+2008	Washer	Plus	120
+2008	Camera	Generic	70
+2008	Camera	Generic	70
+2008	Phone	Plus	42
+2008	GPS	Generic	5
+2008	Desktop CPU	Plus	96
+2008	Desktop CPU	Generic	80
+2008	GPS	Generic	5
+2008	Laptop	Plus	120
+2008	Phone	Generic	35
+2008	Desktop CPU	Plus	96
+2008	Guitar	Plus	72
+2008	Desktop CPU	Generic	80
+2008	Tablet	Plus	30
+2008	Laptop	Generic	100
+2008	Laptop	Generic	100
+2008	Desktop CPU	Generic	80
+2008	GPS	Plus	6
+2008	Camera	Plus	84
+2008	TV	Plus	168
+2008	TV	Generic	140
+2008	GPS	Plus	6
+2008	Laptop	Plus	120
+2008	Camera	Generic	70
+2008	TV	Generic	140
+2008	Washer	Plus	120
+2008	Camera	Generic	70
+2008	Laptop	Plus	120
+2008	Camera	Plus	84
+2008	Camera	Plus	84
+2008	MP3 Player	Plus	24
+2008	Camera	Generic	70
+2008	Camera	Plus	84
+2008	GPS	Generic	5
+2008	Camera	Generic	70
+2008	Camera	Generic	70
+2008	GPS	Plus	6
+2008	Refrigerator	Plus	240
+2008	Speakers	Generic	50
+2008	TV	Plus	168
+2008	TV	Plus	168
+2008	Speakers	Plus	60
+2008	MP3 Player	Plus	24
+2008	GPS	Generic	5
+2008	Phone	Generic	35
+2008	TV	Plus	168
+2008	GPS	Plus	6
+2008	Dryer	Generic	100
+2008	Phone	Plus	42
+2008	Laptop	Plus	120
+2008	Speakers	Plus	60
+2008	Desktop CPU	Generic	80
+2008	Camera	Generic	70
+2008	Laptop	Generic	100
+2008	GPS	Generic	5
+2008	TV	Plus	168
+2008	Laptop	Plus	120
+2008	Camera	Plus	84
+2008	Desktop CPU	Generic	80
+2008	GPS	Plus	6
+2008	TV	Generic	140
+2008	Laptop	Plus	120
+2008	Camera	Plus	84
+2008	MP3 Player	Generic	20
+2008	MP3 Player	Generic	20
+2008	TV	Plus	168
+2008	Tablet	Generic	25
+2008	Laptop	Plus	120
+2008	E-Reader	Generic	20
+2008	Laptop	Generic	100
+2008	Camera	Plus	84
+2008	Camera	Generic	70
+2008	Camera	Plus	84
+2008	Camera	Plus	84
+2008	Desktop CPU	Plus	96
+2008	Laptop	Plus	120
+2008	Desktop CPU	Generic	80
+2008	Dryer	Generic	100
+2008	Laptop	Generic	100
+2008	TV	Generic	140
+2008	Camera	Plus	84
+2008	TV	Plus	168
+2008	TV	Plus	168
+2008	Laptop	Plus	120
+2008	Tablet	Plus	30
+2008	E-Reader	Generic	20
+2008	TV	Generic	140
+2008	TV	Plus	168
+2008	GPS	Plus	6
+2008	Camera	Generic	70
+2008	MP3 Player	Plus	24
+2008	Laptop	Plus	120
+2008	Dryer	Plus	120
+2008	Desktop CPU	Generic	80
+2008	Camera	Generic	70
+2008	MP3 Player	Plus	24
+2008	TV	Plus	168
+2008	Desktop CPU	Generic	80
+2008	Camera	Plus	84
+2008	Desktop CPU	Plus	96
+2008	GPS	Plus	6
+2008	Camera	Generic	70
+2008	TV	Plus	168
+2008	Desktop CPU	Generic	80
+2008	Washer	Plus	120
+2008	TV	Generic	140
+2008	Desktop CPU	Generic	80
+2008	Camera	Plus	84
+2008	Desktop CPU	Plus	96
+2008	Laptop	Plus	120
+2008	TV	Plus	168
+2008	Phone	Generic	35
+2008	TV	Generic	140
+2008	Desktop CPU	Plus	96
+2008	Laptop	Generic	100
+2008	Camera	Generic	70
+2008	Desktop CPU	Generic	80
+2008	E-Reader	Plus	24
+2008	Camera	Generic	70
+2008	Guitar	Generic	60
+2008	MP3 Player	Plus	24
+2008	GPS	Plus	6
+2008	Guitar	Plus	72
+2008	GPS	Plus	6
+2008	Refrigerator	Plus	240
+2008	Laptop	Plus	120
+2008	Speakers	Plus	60
+2008	TV	Generic	140
+2008	Speakers	Plus	60
+2008	Dryer	Plus	120
+2008	TV	Generic	140
+2008	Camera	Generic	70
+2008	Dryer	Plus	120
+2008	MP3 Player	Generic	20
+2008	Desktop CPU	Generic	80
+2008	TV	Plus	168
+2008	Desktop CPU	Plus	96
+2008	Speakers	Generic	50
+2008	TV	Plus	168
+2008	Dryer	Generic	100
+2008	Desktop CPU	Plus	96
+2008	TV	Plus	168
+2008	Laptop	Generic	100
+2008	E-Reader	Plus	24
+2008	Laptop	Generic	100
+2008	Washer	Plus	120
+2008	Refrigerator	Generic	200
+2008	Camera	Plus	84
+2008	GPS	Generic	5
+2008	Desktop CPU	Plus	96
+2008	Refrigerator	Plus	240
+2008	Dryer	Plus	120
+2008	Refrigerator	Generic	200
+2008	Laptop	Generic	100
+2008	Camera	Generic	70
+2008	Dryer	Plus	120
+2008	Desktop CPU	Plus	96
+2008	GPS	Plus	6
+2008	GPS	Plus	6
+2008	Refrigerator	Generic	200
+2008	Camera	Plus	84
+2008	Laptop	Generic	100
+2008	Washer	Plus	120
+2008	GPS	Generic	5
+2008	Washer	Plus	120
+2008	TV	Plus	168
+2008	Camera	Generic	70
+2008	Laptop	Plus	120
+2008	Desktop CPU	Plus	96
+2008	Desktop CPU	Plus	96
+2008	Camera	Plus	84
+2008	Washer	Generic	100
+2008	TV	Generic	140
+2008	Laptop	Generic	100
+2008	Desktop CPU	Generic	80
+2008	MP3 Player	Plus	24
+2008	Camera	Generic	70
+2008	Camera	Generic	70
+2008	TV	Generic	140
+2008	MP3 Player	Plus	24
+2008	Camera	Generic	70
+2008	MP3 Player	Plus	24
+2008	Laptop	Generic	100
+2008	Camera	Generic	70
+2008	Camera	Plus	84
+2008	Desktop CPU	Plus	96
+2008	Camera	Generic	70
+2008	Laptop	Plus	120
+2008	TV	Plus	168
+2008	Laptop	Plus	120
+2008	Laptop	Plus	120
+2008	Desktop CPU	Generic	80
+2008	Desktop CPU	Generic	80
+2008	Desktop CPU	Generic	80
+2008	Refrigerator	Generic	200
+2008	MP3 Player	Generic	20
+2008	GPS	Generic	5
+2008	Camera	Plus	84
+2008	Desktop CPU	Plus	96
+2008	Washer	Plus	120
+2008	Camera	Generic	70
+2008	Laptop	Generic	100
+2008	GPS	Generic	5
+2008	Desktop CPU	Plus	96
+2008	TV	Plus	168
+2008	MP3 Player	Plus	24
+2008	Speakers	Plus	60
+2008	Phone	Generic	35
+2008	Speakers	Generic	50
+2008	Speakers	Plus	60
+2008	Desktop CPU	Plus	96
+2008	Laptop	Generic	100
+2008	Laptop	Plus	120
+2008	Camera	Generic	70
+2008	GPS	Plus	6
+2008	Speakers	Plus	60
+2008	TV	Plus	168
+2008	Desktop CPU	Plus	96
+2008	Laptop	Plus	120
+2008	Dryer	Generic	100
+2008	Dryer	Generic	100
+2008	TV	Generic	140
+2008	Phone	Plus	42
+2008	Laptop	Generic	100
+2008	MP3 Player	Plus	24
+2008	Phone	Generic	35
+2008	Dryer	Generic	100
+2008	Guitar	Plus	72
+2008	Camera	Generic	70
+2008	GPS	Generic	5
+2008	Camera	Generic	70
+2008	Desktop CPU	Generic	80
+2008	Tablet	Generic	25
+2008	Dryer	Generic	100
+2008	Speakers	Generic	50
+2008	TV	Generic	140
+2008	MP3 Player	Plus	24
+2008	GPS	Plus	6
+2008	Tablet	Generic	25
+2008	Desktop CPU	Plus	96
+2008	TV	Generic	140
+2008	Desktop CPU	Plus	96
+2008	Camera	Plus	84
+2008	GPS	Plus	6
+2008	TV	Plus	168
+2008	Laptop	Plus	120
+2008	Laptop	Plus	120
+2008	Phone	Plus	42
+2008	Desktop CPU	Plus	96
+2008	Desktop CPU	Plus	96
+2008	Dryer	Plus	120
+2008	TV	Plus	168
+2008	TV	Plus	168
+2008	Desktop CPU	Generic	80
+2008	Washer	Plus	120
+2008	Camera	Generic	70
+2008	TV	Generic	140
+2008	Laptop	Plus	120
+2008	TV	Plus	168
+2008	Desktop CPU	Generic	80
+2008	MP3 Player	Plus	24
+2008	Tablet	Plus	30
+2008	Laptop	Plus	120
+2008	Guitar	Plus	72
+2008	Laptop	Plus	120
+2008	Laptop	Generic	100
+2008	Laptop	Generic	100
+2008	Laptop	Plus	120
+2008	Desktop CPU	Plus	96
+2008	Laptop	Plus	120
+2008	Phone	Plus	42
+2008	TV	Generic	140
+2008	Laptop	Generic	100
+2008	TV	Generic	140
+2008	GPS	Plus	6
+2008	GPS	Generic	5
+2008	Speakers	Generic	50
+2008	E-Reader	Plus	24
+2008	Phone	Generic	35
+2008	TV	Generic	140
+2008	Washer	Generic	100
+2008	Desktop CPU	Generic	80
+2008	Desktop CPU	Generic	80
+2008	Laptop	Generic	100
+2008	GPS	Plus	6
+2008	Laptop	Generic	100
+2008	Laptop	Generic	100
+2008	Refrigerator	Generic	200
+2008	TV	Generic	140
+2008	TV	Plus	168
+2008	Camera	Plus	84
+2008	Speakers	Generic	50
+2008	Laptop	Plus	120
+2008	Speakers	Generic	50
+2008	Phone	Generic	35
+2008	Camera	Plus	84
+2008	Laptop	Plus	120
+2008	Washer	Plus	120
+2008	MP3 Player	Plus	24
+2008	Tablet	Generic	25
+2008	Dryer	Generic	100
+2008	Desktop CPU	Generic	80
+2008	TV	Plus	168
+2008	Laptop	Generic	100
+2008	GPS	Plus	6
+2008	Dryer	Plus	120
+2008	Washer	Generic	100
+2008	TV	Generic	140
+2008	Refrigerator	Plus	240
+2008	TV	Plus	168
+2008	TV	Generic	140
+2008	Laptop	Generic	100
+2008	Camera	Generic	70
+2008	GPS	Generic	5
+2008	Desktop CPU	Generic	80
+2008	TV	Plus	168
+2008	Laptop	Generic	100
+2008	Camera	Plus	84
+2008	GPS	Plus	6
+2008	Guitar	Generic	60
+2008	MP3 Player	Generic	20
+2008	Phone	Plus	42
+2008	Desktop CPU	Generic	80
+2008	TV	Generic	140
+2008	Camera	Plus	84
+2008	Camera	Generic	70
+2008	Desktop CPU	Plus	96
+2008	Laptop	Plus	120
+2008	Phone	Plus	42
+2008	Laptop	Generic	100
+2008	Dryer	Plus	120
+2008	Laptop	Generic	100
+2008	Camera	Plus	84
+2008	GPS	Generic	5
+2008	Laptop	Plus	120
+2008	Refrigerator	Generic	200
+2008	GPS	Plus	6
+2008	Desktop CPU	Generic	80
+2008	MP3 Player	Plus	24
+2008	Camera	Generic	70
+2008	TV	Generic	140
+2008	E-Reader	Plus	24
+2008	GPS	Generic	5
+2008	Refrigerator	Plus	240
+2008	TV	Plus	168
+2008	Refrigerator	Plus	240
+2008	TV	Plus	168
+2008	Refrigerator	Plus	240
+2008	Desktop CPU	Generic	80
+2008	Camera	Plus	84
+2008	Dryer	Generic	100
+2008	GPS	Plus	6
+2008	Laptop	Plus	120
+2008	TV	Plus	168
+2008	Desktop CPU	Generic	80
+2008	Laptop	Plus	120
+2008	Desktop CPU	Plus	96
+2008	TV	Generic	140
+2008	Dryer	Generic	100
+2008	Desktop CPU	Plus	96
+2008	TV	Plus	168
+2008	E-Reader	Plus	24
+2008	Laptop	Generic	100
+2008	Laptop	Generic	100
+2008	Phone	Generic	35
+2008	TV	Plus	168
+2008	TV	Plus	168
+2008	MP3 Player	Plus	24
+2008	MP3 Player	Generic	20
+2008	Desktop CPU	Plus	96
+2008	Desktop CPU	Generic	80
+2008	Washer	Generic	100
+2008	Desktop CPU	Plus	96
+2008	Camera	Generic	70
+2008	Laptop	Plus	120
+2008	Laptop	Plus	120
+2008	TV	Generic	140
+2008	Speakers	Plus	60
+2008	TV	Plus	168
+2008	Desktop CPU	Generic	80
+2008	Tablet	Generic	25
+2008	Desktop CPU	Generic	80
+2008	Refrigerator	Plus	240
+2008	Phone	Generic	35
+2008	Desktop CPU	Plus	96
+2008	Laptop	Plus	120
+2008	Dryer	Generic	100
+2008	Phone	Plus	42
+2008	Phone	Generic	35
+2008	TV	Generic	140
+2008	Camera	Generic	70
+2008	MP3 Player	Generic	20
+2008	Laptop	Plus	120
+2008	Laptop	Generic	100
+2008	Phone	Plus	42
+2008	Laptop	Plus	120
+2008	Camera	Generic	70
+2008	Desktop CPU	Generic	80
+2008	Desktop CPU	Generic	80
+2008	Camera	Plus	84
+2008	Phone	Generic	35
+2008	Speakers	Generic	50
+2008	Laptop	Plus	120
+2008	Laptop	Generic	100
+2008	Camera	Plus	84
+2008	Camera	Plus	84
+2008	Laptop	Plus	120
+2008	Camera	Plus	84
+2008	Desktop CPU	Generic	80
+2008	MP3 Player	Plus	24
+2008	Dryer	Plus	120
+2008	Speakers	Plus	60
+2008	GPS	Generic	5
+2008	Camera	Generic	70
+2008	Laptop	Generic	100
+2008	Phone	Plus	42
+2008	Desktop CPU	Generic	80
+2008	Camera	Plus	84
+2008	Phone	Generic	35
+2008	TV	Generic	140
+2008	TV	Generic	140
+2008	Camera	Generic	70
+2008	Speakers	Generic	50
+2008	Laptop	Generic	100
+2008	Phone	Generic	35
+2008	Desktop CPU	Generic	80
+2008	Camera	Plus	84
+2008	Refrigerator	Generic	200
+2008	Washer	Generic	100
+2008	TV	Generic	140
+2008	Speakers	Plus	60
