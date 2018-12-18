@@ -1,0 +1,16 @@
+SELECT tblEarthquakes.YEAR, tblEarthquakes.MONTH, tblEarthquakes.DAY, tblEarthquakes.State, Mapping.StateAbbr, Mapping.Region, tblEarthquakes.Magnitude
+FROM tblEarthquakes
+LEFT JOIN Mapping
+ON tblEarthquakes.State = Mapping.State;
+
+SELECT *
+INTO tblEarthquakesFinal
+FROM qryTask2;
+
+SELECT AVG(tblEarthquakesFinal.Magnitude) AS AveMagnitude
+FROM tblEarthquakesFinal;
+
+SELECT tblEarthquakesFinal.State, COUNT(tblEarthquakesFinal.Magnitude) AS CountMagnitude
+FROM tblEarthquakesFinal
+GROUP BY tblEarthquakesFinal.State;
+

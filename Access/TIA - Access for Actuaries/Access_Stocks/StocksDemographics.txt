@@ -1,0 +1,6 @@
+Ticker	Name	State	Country	Sector	Industry	Employees
+MPC	Marathon Petroleum Corporation	OH	USA	Basic Materials	Oil & Gas Refining & Marketing	25985
+BAC	Bank of America Corporation	NC	USA	Financial	Money Center Banks	267000
+DDS	Dillard's Inc.	AR	USA	Services	Department Stores	N/A
+HFC	HollyFrontier Corporation	TX	USA	Basic Materials	Oil & Gas & Refining & Marketing	2534
+WHR	Whirlpool Corp.	MI	USA	Consumer Goods	Appliances	68000
