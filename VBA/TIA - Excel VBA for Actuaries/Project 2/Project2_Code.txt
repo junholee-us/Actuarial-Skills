@@ -1,0 +1,134 @@
+Option Explicit
+
+Sub userInput()
+
+Application.ScreenUpdating = False
+
+' Define user inputs
+Dim SalaryGrowth As Double
+Dim InsuranceCost As Double
+Dim LivingExpense As Double
+Dim OtherExpense As Double
+Dim IncomeTax As Double
+Dim InterestSaving As Double
+
+SalaryGrowth = Worksheets("Inputs").Range("H5").Value
+InsuranceCost = Worksheets("Inputs").Range("H6").Value
+LivingExpense = Worksheets("Inputs").Range("H7").Value
+OtherExpense = Worksheets("Inputs").Range("H8").Value
+IncomeTax = Worksheets("Inputs").Range("H9").Value
+InterestSaving = Worksheets("Inputs").Range("H10").Value
+
+
+' Fill in appropriate cell given user input
+Worksheets("Model").Activate
+
+Worksheets("Model").Range("N31").Value = SalaryGrowth
+Worksheets("Model").Range("M34").Value = InsuranceCost
+Worksheets("Model").Range("M35").Value = LivingExpense
+Worksheets("Model").Range("M37").Value = OtherExpense
+Worksheets("Model").Range("M38").Value = IncomeTax
+Worksheets("Model").Range("M39").Value = InterestSaving
+
+' Bring back the calculated value on the Model tab to the Input tab
+Worksheets("Inputs").Range("H12").Value = Worksheets("Model").Range("AY26").Value
+Worksheets("Inputs").Activate
+
+'Delete Old Savings Chart
+Rows("14:30").Select
+Selection.Delete Shift:=xlUp
+Range("A1").Select
+
+' Create Line Chart of Personal Savings Account (from macro recorder)
+
+ActiveSheet.Shapes.AddChart2(227, xlLine).Select
+ActiveChart.SetSourceData Source:=Range("Model!$G$1:$AY$4")
+ActiveChart.FullSeriesCollection(1).Delete
+ActiveChart.FullSeriesCollection(1).Delete
+ActiveChart.FullSeriesCollection(1).Delete
+ActiveChart.FullSeriesCollection(1).Delete
+ActiveChart.SeriesCollection.NewSeries
+ActiveChart.FullSeriesCollection(1).Name = "=""Savings"""
+ActiveChart.FullSeriesCollection(1).Values = "=Model!$H$26:$AY$26"
+ActiveChart.FullSeriesCollection(1).XValues = "=Model!$H$3:$AY$3"
+ActiveWindow.ScrollColumn = 40
+ActiveWindow.ScrollColumn = 39
+ActiveWindow.ScrollColumn = 38
+ActiveWindow.ScrollColumn = 37
+ActiveWindow.ScrollColumn = 36
+ActiveWindow.ScrollColumn = 35
+ActiveWindow.ScrollColumn = 34
+ActiveWindow.ScrollColumn = 33
+ActiveWindow.ScrollColumn = 32
+ActiveWindow.ScrollColumn = 31
+ActiveWindow.ScrollColumn = 30
+ActiveWindow.ScrollColumn = 29
+ActiveWindow.ScrollColumn = 28
+ActiveWindow.ScrollColumn = 27
+ActiveWindow.ScrollColumn = 26
+ActiveWindow.ScrollColumn = 25
+ActiveWindow.ScrollColumn = 24
+ActiveWindow.ScrollColumn = 23
+ActiveWindow.ScrollColumn = 22
+ActiveWindow.ScrollColumn = 21
+ActiveWindow.ScrollColumn = 20
+ActiveWindow.ScrollColumn = 19
+ActiveWindow.ScrollColumn = 18
+ActiveWindow.ScrollColumn = 17
+ActiveWindow.ScrollColumn = 16
+ActiveWindow.ScrollColumn = 15
+ActiveWindow.ScrollColumn = 14
+ActiveWindow.ScrollColumn = 13
+ActiveWindow.ScrollColumn = 12
+ActiveWindow.ScrollColumn = 11
+ActiveWindow.ScrollColumn = 10
+ActiveWindow.ScrollColumn = 9
+ActiveWindow.ScrollColumn = 8
+ActiveWindow.ScrollColumn = 7
+ActiveWindow.ScrollColumn = 6
+ActiveWindow.ScrollColumn = 5
+ActiveWindow.ScrollColumn = 4
+ActiveWindow.ScrollColumn = 3
+ActiveWindow.ScrollColumn = 2
+ActiveWindow.ScrollColumn = 1
+ActiveChart.Parent.Cut
+Sheets("Inputs").Select
+Range("F15").Select
+ActiveSheet.Paste
+ActiveWindow.SmallScroll Down:=-15
+Range("A1").Select
+
+End Sub
+Sub Clear()
+
+Application.ScreenUpdating = False
+
+'Clear user inputs
+Worksheets("Inputs").Range("H5").Value = 0
+Worksheets("Inputs").Range("H6").Value = 0
+Worksheets("Inputs").Range("H7").Value = 0
+Worksheets("Inputs").Range("H8").Value = 0
+Worksheets("Inputs").Range("H9").Value = 0
+Worksheets("Inputs").Range("H10").Value = 0
+Worksheets("Inputs").Range("H12").Value = 0
+
+'Delete Old Savings Chart
+Rows("14:30").Select
+Selection.Delete Shift:=xlUp
+Range("A1").Select
+
+End Sub
+
+Sub GoToModelTab()
+
+Worksheets("Model").Activate
+Range("A1").Select
+
+End Sub
+
+Sub GoToInputsTab()
+
+Worksheets("Inputs").Activate
+Range("A1").Select
+
+End Sub

@@ -1,0 +1,110 @@
+Option Explicit
+
+Sub SimulationFill()
+
+'Variables to keep track of brand
+Dim brandProb As Double
+Dim brandName As String
+
+'Variables to keep track of item
+Dim itemProb As Double
+Dim itemName As String
+
+'Variables for counter
+Dim i As Integer
+Dim j As Integer
+
+'j is the number of simulation to be performed
+For j = 1 To 50
+'i is the number of item number in each simulation
+    For i = 1 To 100
+    
+        brandProb = WorksheetFunction.RandBetween(0, 100) / 100
+        
+        If brandProb <= 0.6 Then
+            brandName = "Generic"
+        Else
+            brandName = "Plus"
+        End If
+        
+        itemProb = WorksheetFunction.RandBetween(0, 100) / 100
+        
+        If itemProb <= 0.05 Then
+            itemName = "Camera"
+        ElseIf itemProb <= 0.12 Then
+            itemName = "Desktop CPU"
+        ElseIf itemProb <= 0.17 Then
+            itemName = "Dryer"
+        ElseIf itemProb <= 0.25 Then
+            itemName = "E-Reader"
+        ElseIf itemProb <= 0.26 Then
+            itemName = "GPS"
+        ElseIf itemProb <= 0.27 Then
+            itemName = "Guitar"
+        ElseIf itemProb <= 0.335 Then
+            itemName = "Laptop"
+        ElseIf itemProb <= 0.435 Then
+            itemName = "MP3 Player"
+        ElseIf itemProb <= 0.735 Then
+            itemName = "Phone"
+        ElseIf itemProb <= 0.765 Then
+            itemName = "Refrigerator"
+        ElseIf itemProb <= 0.77 Then
+            itemName = "Speakers"
+        ElseIf itemProb <= 0.87 Then
+            itemName = "Tablet"
+        ElseIf itemProb <= 0.96 Then
+            itemName = "TV"
+        Else
+            itemName = "Washer"
+        End If
+        
+'Lookup warranty prices
+        If brandName = "Generic" Then
+            Cells(i + 2, j + 8).Value = WorksheetFunction.VLookup(itemName, Range("D4:F17"), 2, False)
+        ElseIf brandName = "Plus" Then
+            Cells(i + 2, j + 8).Value = WorksheetFunction.VLookup(itemName, Range("D4:F17"), 3, False)
+        End If
+    
+    Next i
+
+Next j
+
+End Sub
+
+
+Function priceLookup(item, brand) As Integer
+
+        If brand = "Generic" Then
+            priceLookup = WorksheetFunction.VLookup(item, Range("K4:M17"), 2, False)
+        ElseIf brand = "Plus" Then
+            priceLookup = WorksheetFunction.VLookup(item, Range("K4:M17"), 3, False)
+        End If
+
+End Function
+
+
+Sub checkout()
+
+Dim item As String
+Dim rowcounter As Integer
+rowcounter = 1
+
+Dim genquant As Integer
+Dim plusquant As Integer
+Dim revenue As Double
+revenue = 0
+
+For rowcounter = 1 To 10
+
+    item = Range("A" & rowcounter + 3).Value
+    genquant = Range("B" & rowcounter + 3).Value
+    revenue = revenue + genquant * WarrantyPrice(item, "Generic")
+    plusquant = Range("C" & rowcounter + 3).Value
+    revenue = revenue + plusquant * WarrantyPrice(item, "Plus")
+
+Next rowcounter
+
+Range("B20").Value = revenue
+
+End Sub

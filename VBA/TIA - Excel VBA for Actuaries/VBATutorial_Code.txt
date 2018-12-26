@@ -1,0 +1,113 @@
+Option Explicit
+
+Sub RiskClassSim()
+
+' Macro to simulate claim payments from risk classes
+
+'Turn off screen updating to optimize the speed
+
+Application.ScreenUpdating = False
+
+' Counter to keep track of the number of individuals simulated
+Dim counter As Integer
+
+' Variable for a random number to determine risk class
+Dim randclass As Double
+
+' Variable to keep track of the simulated risk class
+Dim RiskClass As String
+
+' Variable to keep track of the expected simulated payment for the individual
+Dim ExpPay As Double
+
+' Variable for the total number of subjects simulated. Input is from user
+Dim lastsubject As Integer
+
+' Clears the ceels from A10 to D5000
+Range("A10:D5000").ClearContents
+
+' Asks the user for the total number of simulations
+lastsubject = InputBox("How many simulations? Please enter in an integer from 1 to 5000: ")
+
+Dim runit As VbMsgBoxResult
+
+runit = MsgBox("Do you want to run simulation?", vbYesNo)
+
+If runit = vbNo Then
+    Exit Sub
+End If
+
+
+counter = 1
+
+For counter = 1 To lastsubject
+
+    'Cells(10, 1) = counter
+    Range("A" & counter + 9).Value = counter
+    randclass = WorksheetFunction.RandBetween(0, 1000) / 1000
+    Range("B" & counter + 9).Value = randclass
+    
+    
+    'If randclass <= 0.05 Then
+    '    RiskClass = "A"
+    'ElseIf randclass <= 0.25 Then
+    '    RiskClass = "B"
+    'ElseIf randclass <= 0.55 Then
+    '    RiskClass = "C"
+    'ElseIf randclass <= 0.85 Then
+    '    RiskClass = "D"
+    'ElseIf randclass <= 0.95 Then
+    '    RiskClass = "E"
+    'ElseIf randclass <= 1 Then
+    '    RiskClass = "F"
+    'End If
+    
+    Select Case randclass
+    
+        Case Is <= 0.05
+        RiskClass = "A"
+        ExpPay = 100
+        
+        Case Is <= 0.25
+        RiskClass = "B"
+         ExpPay = 250
+           
+        Case Is <= 0.55
+        RiskClass = "C"
+        ExpPay = 500
+        
+        Case Is <= 0.85
+        RiskClass = "D"
+        ExpPay = 1000
+        
+        Case Is <= 0.95
+        RiskClass = "E"
+        ExpPay = 2000
+        
+        Case Is <= 1
+        RiskClass = "F"
+        ExpPay = 5000
+        
+    End Select
+    
+    
+    Range("C" & counter + 9).Value = RiskClass
+    
+    Range("D" & counter + 9).Value = ExpPay
+
+Next counter
+
+End Sub
+
+Function RiskClassPay(RiskClass) As Integer
+    
+    RiskClassPay = WorksheetFunction.VLookup(RiskClass, Range("A2:B7"), 2, False)
+
+End Function
+
+' Avoids future reference table mismatch
+Function RiskClassPaySecure(RiskClass, rangeClaimPayment) As Integer
+
+    RiskClassPaySecure = WorksheetFunction.VLookup(RiskClass, rangeClaimPayment, 2, False)
+    
+End Function
