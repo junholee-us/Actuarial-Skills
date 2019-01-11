@@ -5,6 +5,7 @@ This folder contains all of the exercise and project that I have practiced to pe
 ## Table of Contents
 
 * TIA - SQL for Actuaries
+* The Complete SQL Bootcamp
 * Independent Project *(To be updated)*
 
 ## Authors
@@ -17,3 +18,6 @@ I followed course syllabus and guidelines to complete certain project under *"TI
 
 ##### TIA - Technical Skills Course
 Instructor: Roger Rosales (https://www.theinfiniteactuary.com/skills)
+
+##### Udemy - The Complete SQL Bootcamp
+Instructor: Jose Portilla (https://www.udemy.com/the-complete-sql-bootcamp/)
