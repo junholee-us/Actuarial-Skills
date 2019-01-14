@@ -1,0 +1,105 @@
+---
+title: "Data Visualization with R"
+author: "Junho Lee"
+date: "1/13/2019"
+output: html_document
+---
+
+Prep
+```{r}
+library(ggplot2)
+library(ggplot2movies)
+df <- mtcars
+```
+
+
+##### Histogram
+
+Data & Aesthetics
+```{r}
+pl <- ggplot(movies,aes(x=rating))
+```
+
+Geometry layer
+```{r}
+pl2 <- pl + geom_histogram(binwidth = 0.1, color='red',fill='pink',alpha=0.5,aes(fill=..count..)) #alpha for transparency
+pl3 <- pl2 + xlab('Movie Ratings') + ylab('Count') + ggtitle('My Title')
+print(pl3)
+```
+
+```{r}
+pl4 <- pl + geom_histogram(binwidth = 0.1, aes(fill=..count..))
+print(pl4)
+```
+
+
+##### Scatterplots
+
+Data & Aesthetics
+```{r}
+pl <- ggplot(df,aes(x=wt, y=mpg))
+```
+
+Geometry layer
+```{r}
+pl2 <- pl + geom_point(alpha=0.5, size=3, color='blue')
+print(pl2)
+```
+
+```{r}
+pl3 <- pl + geom_point(aes(size=hp))
+print(pl3)
+```
+```{r}
+pl2 <- pl + geom_point(aes(color=hp),size=5)
+pl3 <- pl2 + scale_color_gradient(low='blue',high='red')
+print(pl3)
+```
+
+
+```{r}
+pl3 <- pl + geom_point(aes(shape=factor(cyl),color=factor(cyl),size=5))
+print(pl3)
+```
+
+
+##### Barplots
+
+```{r}
+df <- mpg
+
+pl <- ggplot(df,aes(x=class))
+print(pl + geom_bar(aes(fill=drv)))
+```
+
+```{r}
+print(pl + geom_bar(aes(fill=drv), position="dodge"))
+```
+
+```{r}
+print(pl + geom_bar(aes(fill=drv), position="fill"))
+```
+
+##### Boxplots
+
+```{r}
+df <- mtcars
+
+# ggplot(df,aes(x=cyl,y=mpg)) x shouldn't be continuous value (i.e. x should be categorical value)
+pl <- ggplot(df,aes(x=factor(cyl),y=mpg))
+print(pl + geom_boxplot())
+```
+
+```{r}
+df <- mtcars
+
+# ggplot(df,aes(x=cyl,y=mpg)) x shouldn't be continuous value (i.e. x should be categorical value)
+pl <- ggplot(df,aes(x=factor(cyl),y=mpg))
+print(pl + geom_boxplot() + coord_flip())
+```
+
+
+```{r}
+pl <- ggplot(df,aes(x=factor(cyl),y=mpg))
+print(pl + geom_boxplot(aes(fill=factor(cyl))) + theme_dark())
+```

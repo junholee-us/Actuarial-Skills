@@ -1,0 +1,158 @@
+---
+title: "1. Data Manipulation Practice"
+author: "Junho Lee"
+date: "1/13/2019"
+output: html_document
+---
+
+Preparation
+```{r}
+# install.packages('dplyr')
+# install.packages('nycflights13')
+library(dplyr)
+library(nycflights13)
+library(tidyr)
+```
+
+filter()
+```{r}
+head(filter(flights, month==11, day==3, carrier=='AA'))
+```
+
+slice()
+```{r}
+slice(flights,1:10)
+```
+
+arrange()
+```{r}
+head(arrange(flights,year,month,day,desc(arr_time)))
+```
+
+select()
+```{r}
+head(select(flights,carrier,month))
+```
+
+rename()
+```{r}
+head(rename(flights,airlines_carrier = carrier))
+```
+
+distinct()
+```{r}
+distinct(select(flights,carrier))
+```
+
+mutate()
+```{r}
+head(mutate(flights, new_col = arr_delay - dep_delay))
+```
+
+transmute() # only return the new column
+```{r}
+head(transmute(flights, new_col = arr_delay - dep_delay))
+```
+
+summarise()
+```{r}
+summarise(flights,avg_air_time=mean(air_time,na.rm = TRUE)) # na.rm removes missing data
+summarise(flights,total_air_time=sum(air_time,na.rm = TRUE)) 
+```
+
+sample_n() #choose random number of rows
+```{r}
+sample_n(flights,10)
+```
+
+sample_frac()
+```{r}
+sample_frac(flights,0.05)
+```
+
+
+
+Nesting
+```{r}
+df <- mtcars
+
+result <- arrange(sample_n(filter(df,mpg>20),size=5),desc(mpg))
+print(result)
+```
+
+Multiple Assignments # more readable but takes up memory
+```{r}
+a <- filter(df,mpg>20)
+b <- sample_n(a,size=5)
+result <- arrange(b,desc(mpg))
+print(result)
+```
+
+
+Pipe Operator
+```{r}
+# Data %>% op1 %>% op2 %>% op3 ...
+result <- df %>% filter(mpg>20) %>% sample_n(size=5) %>% arrange(desc(mpg))
+print(result)
+```
+
+
+Tidyr package
+```{r}
+# sample data
+comp <- c(1,1,1,2,2,2,3,3,3)
+yr <- c(1998,1999,2000,1998,1999,2000,1998,1999,2000)
+q1 <- runif(9, min=0, max=100)
+q2 <- runif(9, min=0, max=100)
+q3 <- runif(9, min=0, max=100)
+q4 <- runif(9, min=0, max=100)
+
+df <- data.frame(comp=comp,year=yr,Qtr1 = q1,Qtr2 = q2,Qtr3 = q3,Qtr4 = q4)
+df
+```
+
+gather()
+```{r}
+gather(df,Quarter,Revenue,Qtr1:Qtr4)
+```
+
+sample data
+```{r}
+stocks <- data.frame(
+  time = as.Date('2009-01-01') + 0:9,
+  X = rnorm(10, 0, 1),
+  Y = rnorm(10, 0, 2),
+  Z = rnorm(10, 0, 4)
+)
+stocks
+```
+
+```{r}
+stocks.gathered <- stocks %>% gather(stock,price,X,Y,Z)
+stocks.gathered
+```
+
+spread()
+```{r}
+stocks.gathered %>% spread(stock, price)
+```
+
+sample data
+```{r}
+df <- data.frame(new.col = c(NA,"a-x","b-y","c-z"))
+df
+```
+
+separate()
+```{r}
+separate(df,new.col,c('ABC','XYZ'))
+```
+```{r}
+df.sep <- separate(df,col = new.col, into = c('abc','xyz'), sep = '-')
+df.sep
+```
+
+unite()
+```{r}
+unite(df.sep, new.joined.col, abc, xyz, sep="--")
+```

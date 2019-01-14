@@ -1,0 +1,46 @@
+---
+title: "7. ggplot2 Exercises"
+author: "Junho Lee"
+date: "1/13/2019"
+output: html_document
+---
+Important Note!
+Some of the images may be distorted from the conversion to a web format
+
+For the first few plots, use the mpg dataset
+```{r}
+library(ggplot2)
+library(ggthemes)
+head(mpg)
+```
+
+Histogram of hwy mpg values:
+```{r}
+pl <- ggplot(mpg,aes(x=hwy))
+print(pl + geom_histogram(bins=20, fill='red',alpha=0.5))
+```
+
+Barplot of car counts per manufacturer with color fill defined by cyl count
+```{r}
+pl <- ggplot(mpg,aes(x=manufacturer))
+pl2 <- pl + geom_bar(aes(fill=factor(cyl)))
+print(pl2)
+```
+
+Switch now to use the txhousing dataset that comes with ggplot2
+```{r}
+head(txhousing)
+```
+
+Create a scatterplot of volume versus sales. Afterwards play around with alpha and color arguments to clarify information.
+```{r}
+pl <- ggplot(txhousing,aes(x=sales, y=volume))
+pl2 <- pl + geom_point(alpha=0.5, size=1, color='blue')
+print(pl2)
+```
+
+Add a smooth fit line to the scatterplot from above. Hint: You may need to look up geom_smooth()
+```{r}
+pl3 <- pl + geom_point(alpha=0.5, size=1, color='blue') + geom_smooth(colour='red')
+print(pl3)
+```

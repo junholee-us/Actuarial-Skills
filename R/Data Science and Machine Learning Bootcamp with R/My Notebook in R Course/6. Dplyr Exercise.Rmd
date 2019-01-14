@@ -1,0 +1,48 @@
+---
+title: "6. Dplyr Exercise"
+author: "Junho Lee"
+date: "1/13/2019"
+output: html_document
+---
+
+Prep
+```{r}
+library(dplyr)
+df <- mtcars
+head(df)
+```
+
+Return rows of cars that have an mpg value greater than 20 and 6 cylinders.
+```{r}
+filter(df,mpg>20 & cyl==6)
+```
+
+Reorder the Data Frame by cyl first, then by descending wt.
+```{r}
+head(arrange(df,cyl,desc(wt)))
+```
+
+Select the columns mpg and hp
+```{r}
+head(select(df,mpg,hp))
+```
+
+Select the distinct values of the gear column.
+```{r}
+distinct(select(df,gear))
+```
+
+Create a new column called "Performance" which is calculated by hp divided by wt.
+```{r}
+head(mutate(df, Performance = hp/wt))
+```
+
+Find the mean mpg value using dplyr.
+```{r}
+summarise(df,avg_mpg=mean(mpg, na.rm = TRUE))
+```
+
+Use pipe operators to get the mean hp value for cars with 6 cylinders.
+```{r}
+df %>% filter(cyl==6) %>% summarise(avg_hp=mean(hp, na.rm = TRUE))
+```
