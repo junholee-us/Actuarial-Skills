@@ -26,3 +26,12 @@ Instructor: Roger Rosales (https://www.theinfiniteactuary.com/skills)
 
 ##### Udemy - Complete Python Bootcamp
 Instructor: Jose Portilla (https://www.udemy.com/complete-python-bootcamp/)
+
+##### Udemy - The Complete SQL Bootcamp
+Instructor: Jose Portilla (https://www.udemy.com/the-complete-sql-bootcamp/)
+
+##### Data Science and Machine Learning Bootcamp with R
+Instructor: Jose Portilla (https://www.udemy.com/data-science-and-machine-learning-bootcamp-with-r/)
+
+##### Python for Data Science and Machine Learning Bootcamp
+Instructor: Jose Portilla (https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/)
