@@ -1,0 +1,174 @@
+---
+title: "1.1 Linear Regression - Project"
+output: html_document
+---
+# Linear Regression Project
+
+For this project you will be doing the Bike Sharing Demand Kaggle challenge! We won't submit any results to the competition, but feel free to explore Kaggle more in depth. The main point of this project is to get you feeling comfortabe with Exploratory Data Analysis and begin to get an understanding that sometimes certain models are not a good choice for a data set. In this case, we will discover that Linear Regression may not be the best choice given our data!
+
+## Instructions
+Just complete the tasks outlined below.
+
+## Get the Data
+
+You can download the data or just use the supplied csv in the repository. The data has the following features:
+
+datetime - hourly date + timestamp
+season - 1 = spring, 2 = summer, 3 = fall, 4 = winter
+holiday - whether the day is considered a holiday
+workingday - whether the day is neither a weekend nor holiday
+weather -
+1: Clear, Few clouds, Partly cloudy, Partly cloudy
+2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+temp - temperature in Celsius
+atemp - "feels like" temperature in Celsius
+humidity - relative humidity
+windspeed - wind speed
+casual - number of non-registered user rentals initiated
+registered - number of registered user rentals initiated
+count - number of total rentals
+
+Read in bikeshare.csv file and set it to a dataframe called bike.
+```{r}
+bike <- read.csv('bikeshare.csv')
+```
+
+Check the head of df
+```{r}
+print(head(bike))
+```
+
+Can you figure out what is the target we are trying to predict? Check the Kaggle Link above if you are confused on this.
+
+-> We are trying to predict the "Count" column.
+
+## Exploratory Data Analysis
+
+Create a scatter plot of count vs temp. Set a good alpha value.
+```{r}
+library(ggplot2)
+ggplot(bike,aes(temp,count)) + geom_point(alpha=0.3,aes(color=temp)) + theme_bw()
+```
+
+Plot count versus datetime as a scatterplot with a color gradient based on temperature. You'll need to convert the datetime column into POSIXct before plotting.
+```{r}
+bike$datetime <- as.POSIXct((bike$datetime))
+```
+
+
+```{r}
+ggplot(bike,aes(datetime,count)) + geom_point(aes(color=temp),alpha=0.5)  + scale_color_continuous(low='#55D8CE',high='#FF6E2E') +theme_bw()
+```
+
+Based on the graph, the data show seasonality -- i.e. less bike rental during winter and more bike rental during summer. Also, the count is increasing.
+
+What is the correlation between temp and count?
+```{r}
+cor(bike[,c('temp','count')])
+```
+
+Let's explore the season data. Create a boxplot, with the y axis indicating count and the x axis begin a box for each season.
+```{r}
+ggplot(bike,aes(factor(season),count)) + geom_boxplot(aes(color=factor(season))) +theme_bw()
+```
+
+The boxplot shows that there is more rental in winter than in spring. However, this was captured due to the growth of the rental count, not only due to the actual season.
+
+## Feature Engineering
+A lot of times you'll need to use domain knowledge and experience to engineer and create new features. Let's go ahead and engineer some new features from the datetime column.
+
+Create an "hour" column that takes the hour from the datetime column. You'll probably need to apply some function to the entire datetime column and reassign it. Hint:
+
+time.stamp <- bike$datetime[4]
+format(time.stamp, "%H")
+
+```{r}
+bike$hour <- sapply(bike$datetime,function(x){format(x,"%H")})
+head(bike)
+```
+
+Now create a scatterplot of count versus hour, with color scale based on temp. Only use bike data where workingday==1.
+
+Optional Additions:
+
+Use the additional layer: scale_color_gradientn(colors=c('color1',color2,etc..)) where the colors argument is a vector gradient of colors you choose, not just high and low.
+Use position=position_jitter(w=1, h=0) inside of geom_point() and check out what it does.
+
+```{r}
+library(dplyr)
+pl <- ggplot(filter(bike,workingday==1),aes(hour,count)) 
+pl <- pl + geom_point(position=position_jitter(w=1, h=0),aes(color=temp),alpha=0.5)
+pl <- pl + scale_color_gradientn(colours = c('dark blue','blue','light blue','light green','yellow','orange','red'))
+pl + theme_bw()
+```
+
+Now create the same plot for non working days:
+```{r}
+pl <- ggplot(filter(bike,workingday==0),aes(hour,count)) 
+pl <- pl + geom_point(position=position_jitter(w=1, h=0),aes(color=temp),alpha=0.5)
+pl <- pl + scale_color_gradientn(colours = c('dark blue','blue','light blue','light green','yellow','orange','red'))
+pl + theme_bw()
+```
+You should have noticed that working days have peak activity during the morning (~8am) and right after work gets out (~5pm), with some lunchtime activity. While the non-work days have a steady rise and fall for the afternoon
+
+Now let's continue by trying to build a model, we'll begin by just looking at a single feature.
+
+## Building the Model
+
+Use lm() to build a model that predicts count based solely on the temp feature, name it temp.model
+```{r}
+temp.model <- lm(count ~ temp,bike)
+```
+
+Get the summary of the temp.model
+```{r}
+print(summary(temp.model))
+```
+You should have gotten 6.0462 as the intercept and 9.17 as the temp coeffecient. How can you interpret these values? Do some wikipedia research, re-read ISLR, or revisit the Linear Regression lecture notebook for more on this.
+
+-> The intercept is the estimated number of rental when the temperatur is 0.
+-> The "temp" is the slope, meaning the number of rental will increase by 9.1705 when a temperature increases by 1.
+
+How many bike rentals would we predict if the temperature was 25 degrees Celsius? Calculate this two ways:
+
+Using the values we just got above
+Using the predict() function
+You should get around 235.3 bikes.
+
+```{r}
+# Method 1
+6.0462 + 9.1705*25
+
+```
+
+```{r}
+# Method 2
+temp.test <- data.frame(temp=c(25))
+predict(temp.model,temp.test)
+```
+
+Use sapply() and as.numeric to change the hour column to a column of numeric values.
+```{r}
+bike$hour <- sapply(bike$hour,as.numeric)
+```
+
+Now build a model with more factors.
+```{r}
+model <- lm(count ~ . -casual - registered -datetime -atemp,bike )
+```
+
+```{r}
+summary(model)
+```
+
+Did the model perform well on the training data? What do you think about using a Linear Model on this data?
+
+-> Due to the seasonality, we need to take into account before we perform linear regression model.
+
+You should have noticed that this sort of model doesn't work well given our seasonal and time series data. We need a model that can account for this type of trend, read about Regression Forests for more info if you're interested! For now, let's keep this in mind as a learning experience and move on towards classification with Logistic Regression!
+
+Optional: See how well you can predict for future data points by creating a train/test split. But instead of a random split, your split should be "future" data for test, "previous" data for train.
+
+Great Job!

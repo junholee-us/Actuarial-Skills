@@ -1,0 +1,129 @@
+---
+title: "1.1 Linear Regression"
+output: html_document
+---
+
+
+## 1.1 Linear Regression - Practice
+
+
+```{r}
+# Read CSV, use the delimiter (sep) to separate each field
+df <- read.csv('student-mat.csv',sep = ';')
+head(df)
+```
+
+Get the summary of the data
+```{r}
+summary(df)
+```
+
+### Clean the Data
+Check if any data is missing
+```{r}
+any(is.na(df))
+```
+Now that we confirmed the dataset has no NA or NULL values.
+
+Look at the data to observe the structure and make sure that categorical variables have a factor set to them.
+```{r}
+str(df)
+```
+
+## Exploratory Data Analysis
+Let's use ggplot2 to explroe the data.
+```{r}
+library(ggplot2)
+library(ggthemes)
+library(dplyr)
+```
+
+Now, let's look at correlation and plot a CorrPlot to explore data, and observe if any interaction terms. Note that we exclude categorical data and grab the numberical data only.
+```{r}
+# Num only
+num.cols <- sapply(df,is.numeric)
+# Filter
+cor.data <- cor(df[,num.cols])
+print(cor.data) 
+```
+
+```{r}
+# Load library
+library(corrgram)
+library(corrplot)
+```
+
+```{r}
+print(corrplot(cor.data, method = 'color'))
+```
+
+```{r}
+ggplot(df,aes(x=G3)) + geom_histogram(bins=20,alpha=0.5,fill='blue') + theme_minimal()
+```
+
+Split Data into Train and Test Set
+```{r}
+#install.packages(('caTools'))
+library(caTools)
+
+# Set A Seed
+set.seed(101)
+
+# Split up sample
+sample <- sample.split(df$G3, SplitRatio = 0.7)
+# 70% of data -> train
+train <- subset(df, sample == TRUE)
+# 30% will be test
+test <- subset(df, sample == FALSE)
+
+# Train and build model
+model <- lm(G3 ~., data = train)
+
+# Run Model
+
+# Interpret the model
+print(summary(model))
+```
+
+```{r}
+# Predictions
+G3.predictions <- predict(model,test)
+
+results <- cbind(G3.predictions, test$G3)
+colnames(results) <- c('predicted','actual')
+results <- as.data.frame(results)
+print(head(results))
+```
+
+
+Take care of negative score
+```{r}
+# Write a function
+to_zero <- function(x) {
+  if (x<0) {
+    return(0)
+  } else{
+    return(x)
+  }
+}
+
+# Apply the function
+results$predicted <- sapply(results$predicted, to_zero)
+
+# Mean Squared Error
+mse <- mean( (results$actual - results$predicted)^2)
+print(mse)
+
+# RMSE
+print(mse^0.5)
+```
+
+```{r}
+SSE = sum((results$predicted - results$actual)^2)
+SST = sum( (mean(df$G3) - results$actual)^2)
+
+R2 = 1 - SSE/SST
+R2
+
+
+```
