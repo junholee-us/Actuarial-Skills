@@ -1,0 +1,51 @@
+---
+title: "4.1 K Means Clustering - Practice"
+output: html_document
+---
+## K-means Clustering
+This notebook serves as a reference for the code used in the lecture. Please view the video lecture for a full explanation of the methods used here.
+
+## Method Used
+K Means Clustering is an unsupervised learning algorithm that tries to cluster data based on their similarity. Unsupervised learning means that there is no outcome to be predicted, and the algorithm just tries to find patterns in the data. In k means clustering, we have the specify the number of clusters we want the data to be grouped into. The algorithm randomly assigns each observation to a cluster, and finds the centroid of each cluster. Then, the algorithm iterates through two steps:
+
+Reassign data points to the cluster whose centroid is closest. Calculate new centroid of each cluster. These two steps are repeated till the within cluster variation cannot be reduced any further. The within cluster variation is calculated as the sum of the euclidean distance between the data points and their respective cluster centroids.
+```{r}
+library(datasets)
+```
+
+## Get the Data
+We will use the iris data set. The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.
+
+The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres.
+```{r}
+head(iris)
+```
+
+## EDA
+
+```{r}
+library(ggplot2)
+pl <- ggplot(iris, aes(Petal.Length, Petal.Width, color = Species)) + geom_point()
+print(pl)
+```
+
+## Clustering
+Now let's attempt to use the K-means algorithm to cluster the data. Remember that this is an unsupervised learning algorithm, meaning we won't give it any information on the correct labels:
+```{r}
+set.seed(101)
+# With this data, we luckily already know how many clusters to expect
+irisCluster <- kmeans(iris[, 1:4], 3, nstart = 20)
+irisCluster
+```
+
+```{r}
+table(irisCluster$cluster, iris$Species)
+```
+
+## Cluster Visualizations
+We can plot the clusters out:
+
+```{r}
+library(cluster)
+clusplot(iris, irisCluster$cluster, color=TRUE, shade=TRUE, labels=0,lines=0, )
+```

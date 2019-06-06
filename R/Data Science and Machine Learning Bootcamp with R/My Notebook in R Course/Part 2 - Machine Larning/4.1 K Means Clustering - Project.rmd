@@ -1,0 +1,96 @@
+---
+title: "4.1 K Means Clustering - Project"
+output: html_document
+---
+## K Means Clustering Project
+Usually when dealing with an unsupervised learning problem, its difficult to get a good measure of how well the model performed. For this project, we will use data from the UCI archive based off of red and white wines (this is a very commonly used data set in ML).
+
+We will then add a label to the a combined data set, we'll bring this label back later to see how well we can cluster the wine into groups.
+
+## Get the Data
+
+Use read.csv to open both data sets and set them as df1 and df2. Pay attention to what the separater (sep) is.
+```{r}
+df1 <- read.csv('winequality-red.csv',sep=';')
+df2 <- read.csv('winequality-white.csv',sep=';')
+head(df1)
+```
+
+Now add a label column to both df1 and df2 indicating a label 'red' or 'white'.
+```{r}
+df1$label <- sapply(df1$pH,function(x){'red'})
+df2$label <- sapply(df2$pH,function(x){'white'})
+```
+
+```{r}
+head(df1)
+```
+
+Combine df1 and df2 into a single data frame called wine.
+```{r}
+wine <- rbind(df1,df2)
+str(wine)
+```
+
+## EDA
+Let's explore the data a bit and practice our ggplot2 skills!
+```{r}
+library(ggplot2)
+pl <- ggplot(wine,aes(x=residual.sugar)) + geom_histogram(aes(fill=label),color='black',bins=50)
+pl + scale_fill_manual(values = c('#ae4554','#faf7ea')) + theme_bw()
+```
+
+Create a Histogram of citric.acid from the wine data. Color by red and white wines.
+```{r}
+pl <- ggplot(wine,aes(x=citric.acid)) + geom_histogram(aes(fill=label),color='black',bins=50)
+pl <- pl + scale_fill_manual(values = c('#ae4554','#faf7ea')) + theme_bw()
+print(pl)
+```
+
+Create a Histogram of alcohol from the wine data. Color by red and white wines.
+```{r}
+pl <- ggplot(wine,aes(x=alcohol)) + geom_histogram(aes(fill=label),color='black',bins=50)
+pl <- pl + scale_fill_manual(values = c('#ae4554','#faf7ea')) + theme_bw()
+print(pl)
+```
+
+Create a scatterplot of residual.sugar versus citric.acid, color by red and white wine.
+```{r}
+pl <- ggplot(wine,aes(x=citric.acid,y=residual.sugar)) + geom_point(aes(color=label),alpha=0.2)
+pl <- pl + scale_color_manual(values = c('#ae4554','#faf7ea')) + theme_dark()
+print(pl)
+```
+
+Create a scatterplot of volatile.acidity versus residual.sugar, color by red and white wine.
+```{r}
+pl <- ggplot(wine,aes(x=volatile.acidity,y=residual.sugar)) + geom_point(aes(color=label),alpha=0.2)
+pl <- pl + scale_color_manual(values = c('#ae4554','#faf7ea')) +theme_dark()
+print(pl)
+```
+
+Grab the wine data without the label and call it clus.data
+```{r}
+clus.data <- wine[,1:12]
+head(clus.data)
+```
+
+## Building the Clusters
+Call the kmeans function on clus.data and assign the results to wine.cluster.
+```{r}
+wine.cluster <- kmeans(wine[1:12],2)
+```
+
+Print out the wine.cluster Cluster Means and explore the information.
+```{r}
+print(wine.cluster$centers)
+```
+
+## Evaluating the Clusters
+Use the table() function to compare your cluster results to the real results. Which is easier to correctly group, red or white wines?
+```{r}
+table(wine$label,wine.cluster$cluster)
+```
+
+We can see that red is easier to cluster together, which makes sense given our previous visualizations. There seems to be a lot of noise with white wines, this could also be due to "Rose" wines being categorized as white wine, while still retaining the qualities of a red wine. Overall this makes sense since wine is essentially just fermented grape juice and the chemical measurements we were provided may not correlate well with whether or not the wine is red or white!
+
+It's important to note here, that K-Means can only give you the clusters, it can't directly tell you what the labels should be, or even how many clusters you should have, we are just lucky to know we expected two types of wine. This is where domain knowledge really comes into play.

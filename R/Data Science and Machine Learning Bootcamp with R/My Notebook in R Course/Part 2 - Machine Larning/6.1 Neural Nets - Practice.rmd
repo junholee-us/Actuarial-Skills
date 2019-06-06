@@ -1,0 +1,150 @@
+---
+title: "6.1 Neural Nets - Practice"
+output: html_document
+---
+
+## Neural Nets
+
+## The Data
+We will use the popular Boston dataset from the MASS package, which describes some features for houses in Boston in 1978.
+
+```{r}
+library(MASS)
+set.seed(101)
+data <- Boston
+str(data)
+```
+
+```{r}
+summary(data)
+```
+
+```{r}
+head(data)
+```
+
+```{r}
+any(is.na(data))
+```
+
+## Neural Net Model
+First you'll need to install the neural net library:
+
+```{r}
+library(neuralnet)
+```
+
+## Training the Model
+As a first step, we are going to address data preprocessing. It is good practice to normalize your data before training a neural network. Depending on your dataset, avoiding normalization may lead to useless results or to a very difficult training process (most of the times the algorithm will not converge before the number of maximum iterations allowed). You can choose different methods to scale the data (z-normalization, min-max scale, etc…). Usually scaling in the intervals [0,1] or [-1,1] tends to give better results. We therefore scale and split the data before moving on:
+
+```{r}
+maxs <- apply(data, 2, max) 
+mins <- apply(data, 2, min)
+```
+
+```{r}
+maxs
+```
+
+```{r}
+scaled.data <- scale(data, center = mins, scale = maxs - mins)
+scaled <- as.data.frame(scaled.data)
+head(scaled)
+```
+
+## Train and Test Sets
+Now with our standardized data, let's split it:
+```{r}
+library(caTools)
+split = sample.split(scaled$medv, SplitRatio = 0.70)
+
+train = subset(scaled, split == TRUE)
+test = subset(scaled, split == FALSE)
+```
+
+## Training the Model
+```{r}
+library(neuralnet)
+```
+
+## Formula for Neural Net
+For some odd reasons, the neuralnet() function won't accept a formula in the form: y~. that we are used to using. Instead you have to call all the columns added together. Here is some convience code to help quickly create that formula:
+```{r}
+n <- names(train)
+```
+
+```{r}
+# Paste together
+f <- as.formula(paste("medv ~", paste(n[!n %in% "medv"], collapse = " + ")))
+```
+
+```{r}
+nn <- neuralnet(f,data=train,hidden=c(5,3),linear.output=TRUE)
+```
+
+## Neural Net Visualization
+You can plot out your model to see a very neat visualization with the weights on each connection.
+
+The black lines show the connections between each layer and the weights on each connection while the blue lines show the bias term added in each step. The bias can be thought as the intercept of a linear model. The net is essentially a black box so we cannot say that much about the fitting, the weights and the model. Suffice to say that the training algorithm has converged and therefore the model is ready to be used.
+
+```{r}
+plot(nn)
+```
+
+## Predictions using the Model
+Now we can try to predict the values for the test set and calculate the MSE. Remember that the net will output a normalized prediction, so we need to scale it back in order to make a meaningful comparison (or just a simple prediction).
+
+```{r}
+# Compute Predictions off Test Set
+predicted.nn.values <- compute(nn,test[1:13])
+```
+
+```{r}
+# Its a list returned
+str(predicted.nn.values)
+```
+
+```{r}
+# Convert back to non-scaled predictions
+true.predictions <- predicted.nn.values$net.result*(max(data$medv)-min(data$medv))+min(data$medv)
+```
+
+```{r}
+# Convert the test data
+test.r <- (test$medv)*(max(data$medv)-min(data$medv))+min(data$medv)
+```
+
+```{r}
+# Check the Mean Squared Error
+MSE.nn <- sum((test.r - true.predictions)^2)/nrow(test)
+```
+
+```{r}
+MSE.nn
+```
+
+## Visualize Error
+```{r}
+error.df <- data.frame(test.r,true.predictions)
+```
+
+```{r}
+head(error.df)
+```
+
+```{r}
+library(ggplot2)
+ggplot(error.df,aes(x=test.r,y=true.predictions)) + geom_point() + stat_smooth()
+```
+
+Looks like a few houses threw off our model, but overall its not looking too bad considering we're pretty much treating it like a total black box.
+
+## Conclusion
+Neural networks resemble black boxes a lot: explaining their outcome is much more difficult than explaining the outcome of simpler model such as a linear model. Therefore, depending on the kind of application you need, you might want to take into account this factor too. Furthermore, as you have seen above, extra care is needed to fit a neural network and small changes can lead to different results.
+```{r}
+
+```
+
+```{r}
+
+```

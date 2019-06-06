@@ -1,0 +1,87 @@
+---
+title: "5.1 Natural Language Processing"
+output: html_document
+---
+## Natural Language Processing
+In this lecture we will show an example of how you could use R to perform Natural Language Processing.
+
+## Install the necessary libraries
+We'll need the following libraries:
+
+tm
+twitteR
+wordcloud
+RColorBrewer
+e1017
+class
+
+```{r}
+#install.packages('tm',repos='http://cran.us.r-project.org')
+#install.packages('twitteR',repos='http://cran.us.r-project.org')
+#install.packages('wordcloud',repos='http://cran.us.r-project.org')
+#install.packages('RColorBrewer',repos='http://cran.us.r-project.org')
+#install.packages('e1017',repos='http://cran.us.r-project.org')
+#install.packages('class',repos='http://cran.us.r-project.org')
+```
+
+## Twitter Mining
+Let's mine twitter for some general data!
+
+### Step 1: Import Libraries
+```{r}
+library(twitteR)
+library(tm)
+library(wordcloud)
+library(RColorBrewer)
+```
+
+### Step 2: Search for Topic on Twitter
+We'll use the twitteR library to data mine twitter. First you need to connect by setting up your Authorization keys and tokens.
+```{r}
+ckey <- ""
+skey <- ""
+token <- ""
+sectoken <- ""
+```
+
+```{r}
+setup_twitter_oauth(ckey, skey, token, sectoken)
+```
+
+We will search twitter for the term 'soccer'
+```{r}
+# Returning Tweets
+soccer.tweets <- searchTwitter("soccer", n=2000, lang="en")
+# Grabbing Text Data from Tweets
+soccer.text <- sapply(soccer.tweets, function(x) x$getText())
+```
+
+### Step 3: Clean Text Data
+We'll remove emoticons and create a corpus
+```{r}
+soccer.text <- iconv(soccer.text, 'UTF-8', 'ASCII') # remove emoticons
+soccer.corpus <- Corpus(VectorSource(soccer.text)) # create a corpus
+```
+
+### Step 4: Create a Document Term Matrix
+We'll apply some transformations using the TermDocumentMatrix Function
+```{r}
+term.doc.matrix <- TermDocumentMatrix(soccer.corpus, 
+control=list(removePunctuation = TRUE, stopwords = c("soccer","http", stopwords("english")), removeNumbers = TRUE,tolower = TRUE))
+```
+
+### Step 5: Check out Matrix
+```{r}
+term.doc.matrix <- as.matrix(term.doc.matrix)
+```
+
+### Step 6: Get Word Counts
+```{r}
+word.freqs <- sort(rowSums(term.doc.matrix), decreasing=TRUE) 
+dm <- data.frame(word=names(word.freqs), freq=word.freqs)
+```
+
+###  Step 7: Create Word Cloud
+```{r}
+wordcloud(dm$word, dm$freq, random.order=FALSE, colors=brewer.pal(8, "Dark2"))
+```

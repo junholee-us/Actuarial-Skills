@@ -1,0 +1,72 @@
+---
+title: "3.1 Support Vector Machines - Practice"
+output: html_document
+---
+## Support Vector Machines
+This notebook is for code reference, please watch the video lecture for a full overview.
+
+##Get the Data
+We'll use the iris data again since we are already familiar with it.
+```{r}
+library(ISLR)
+head(iris)
+```
+
+## Building the Model
+We'll need the e1071 library. More info here.
+
+```{r}
+library(e1071)
+```
+
+
+```{r}
+model <- svm(Species ~ ., data=iris)
+summary(model)
+```
+
+## Example Predictions
+We have a small data set, so instead of splitting it into training and testing sets (which you should always try to do!) we'll just score out model against the same data it was tested against:
+
+```{r}
+predicted.values <- predict(model,iris[1:4])
+table(predicted.values,iris[,5])
+```
+Just as we've seen before with the iris data set, the setosa values are easily separated with some noise between versicolor and virginica.
+
+
+## Advanced - Tuning
+We can try to tune parameters to attempt to improve our model, you can refer to the help() documentation to understand what each of these parameters stands for. We use the tune function:
+```{r}
+# Tune for combos of gamma 0.5,1,2
+# and costs 1/10 , 10 , 100
+tune.results <- tune(svm,train.x=iris[1:4],train.y=iris[,5],kernel='radial',
+                  ranges=list(cost=10^(-1:2), gamma=c(.5,1,2)))
+```
+
+```{r}
+summary(tune.results)
+```
+
+We can now see that the best performance occurs with cost=1 and gamma=0.5. You could try to train the model again with these specific parameters in hopes of having a better model:
+
+```{r}
+tuned.svm <- svm(Species ~ ., data=iris, kernel="radial", cost=1, gamma=0.5)
+```
+
+```{r}
+summary(tuned.svm)
+```
+
+```{r}
+tuned.predicted.values <- predict(tuned.svm,iris[1:4])
+```
+
+```{r}
+table(tuned.predicted.values,iris[,5])
+```
+
+
+Looks like we weren't able to improve on our model! The concept of trying to tune for parameters by just trying many combinations in generally known as a grid search. In this case, we likely have too little data to actually improve our model through careful parameter selection.
+
+Great Job!
